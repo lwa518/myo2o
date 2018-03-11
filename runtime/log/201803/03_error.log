@@ -1,0 +1,40 @@
+[ 2018-03-03T12:06:30+08:00 ] ::1 ::1 GET /myo2o/public/index.php/admin/deal/apply.html
+[ error ] [0]method not exist:think\db\Query->getNormalCitys[C:\Apache24\htdocs\myo2o\thinkphp\library\think\db\Query.php:91]
+
+---------------------------------------------------------------
+[ 2018-03-03T12:06:32+08:00 ] ::1 ::1 GET /myo2o/public/index.php/admin/deal/index.html
+[ error ] [0]method not exist:think\db\Query->getNormalCitys[C:\Apache24\htdocs\myo2o\thinkphp\library\think\db\Query.php:91]
+
+---------------------------------------------------------------
+[ 2018-03-03T12:49:10+08:00 ] ::1 ::1 GET /myo2o/public/index.php/admin/bis/detail.html?id=1
+[ error ] [0]method not exist:think\db\Query->getNormalCitysByParentId[C:\Apache24\htdocs\myo2o\thinkphp\library\think\db\Query.php:91]
+
+---------------------------------------------------------------
+[ 2018-03-03T12:49:58+08:00 ] ::1 ::1 GET /myo2o/public/index.php/admin/bis/detail.html?id=1
+[ error ] [0]method not exist:think\db\Query->getNormalCitysByParentId[C:\Apache24\htdocs\myo2o\thinkphp\library\think\db\Query.php:91]
+
+---------------------------------------------------------------
+[ 2018-03-03T14:05:54+08:00 ] ::1 ::1 GET /myo2o/public/index.php/admin/bis/detail.html?id=1
+[ error ] [0]method not exist:think\db\Query->getNormalCitysByParentId[C:\Apache24\htdocs\myo2o\thinkphp\library\think\db\Query.php:91]
+
+---------------------------------------------------------------
+[ 2018-03-03T16:38:22+08:00 ] ::1 ::1 GET /myo2o/public/index.php/admin/deal/apply.html
+[ error ] [0]method not exist:think\db\Query->getNormalCitys[C:\Apache24\htdocs\myo2o\thinkphp\library\think\db\Query.php:91]
+
+---------------------------------------------------------------
+[ 2018-03-03T16:38:28+08:00 ] ::1 ::1 GET /myo2o/public/index.php/admin/deal/index.html
+[ error ] [0]method not exist:think\db\Query->getNormalCitys[C:\Apache24\htdocs\myo2o\thinkphp\library\think\db\Query.php:91]
+
+---------------------------------------------------------------
+[ 2018-03-03T16:39:57+08:00 ] ::1 ::1 GET /myo2o/public/index.php/bis/location/add.html
+[ error ] [0]method not exist:think\db\Query->getNormalCitysByParentId[C:\Apache24\htdocs\myo2o\thinkphp\library\think\db\Query.php:91]
+
+---------------------------------------------------------------
+[ 2018-03-03T17:16:50+08:00 ] ::1 ::1 GET /myo2o/public/index.php/bis/location/add.html
+[ error ] [0]method not exist:think\db\Query->getNormalCitysByParentId[C:\Apache24\htdocs\myo2o\thinkphp\library\think\db\Query.php:91]
+
+---------------------------------------------------------------
+[ 2018-03-03T17:28:55+08:00 ] ::1 ::1 GET /myo2o/public/index.php/bis/deal/add.html
+[ error ] [0]method not exist:think\db\Query->getNormalCitysByParentId[C:\Apache24\htdocs\myo2o\thinkphp\library\think\db\Query.php:91]
+
+---------------------------------------------------------------

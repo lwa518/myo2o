@@ -1,0 +1,8 @@
+[ 2018-02-10T16:57:49+08:00 ] 127.0.0.1 127.0.0.1 GET /myo2o/public/index.php?s=admin/index/test
+[ error ] [0]致命错误: Class 'Map' not found[E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\application\admin\controller\Index.php:11]
+
+---------------------------------------------------------------
+[ 2018-02-10T17:01:22+08:00 ] 127.0.0.1 127.0.0.1 GET /myo2o/public/index.php?s=admin/index/index
+[ error ] [0]模板文件不存在:E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\public/../application/admin\view\public\nav.html[E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\thinkphp\library\think\Template.php:1079]
+
+---------------------------------------------------------------

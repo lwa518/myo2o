@@ -1,0 +1,64 @@
+[ 2018-02-27T12:08:21+08:00 ] 127.0.0.1 127.0.0.1 POST /myo2o/public/index.php/bis/register/add.html
+[ error ] [8]未定义变量: date[E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\extend\Map.php:14]
+
+---------------------------------------------------------------
+[ 2018-02-27T12:09:44+08:00 ] 127.0.0.1 127.0.0.1 POST /myo2o/public/index.php/bis/register/add.html
+[ error ] [2]Illegal string offset 'status'[E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\application\bis\controller\Register.php:32]
+
+---------------------------------------------------------------
+[ 2018-02-27T12:41:55+08:00 ] 127.0.0.1 127.0.0.1 POST /myo2o/public/index.php/bis/register/add.html
+[ error ] [2]Illegal string offset 'status'[E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\application\bis\controller\Register.php:32]
+
+---------------------------------------------------------------
+[ 2018-02-27T12:44:39+08:00 ] 127.0.0.1 127.0.0.1 POST /myo2o/public/index.php/bis/register/add.html
+[ error ] [2]Illegal string offset 'status'[E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\application\bis\controller\Register.php:32]
+
+---------------------------------------------------------------
+[ 2018-02-27T13:08:04+08:00 ] 127.0.0.1 127.0.0.1 POST /myo2o/public/index.php/bis/register/add.html
+[ error ] [2]Illegal string offset 'status'[E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\application\bis\controller\Register.php:32]
+
+---------------------------------------------------------------
+[ 2018-02-27T13:10:12+08:00 ] 127.0.0.1 127.0.0.1 POST /myo2o/public/index.php/bis/register/add.html
+[ error ] [0]致命错误: Cannot use object of type stdClass as array[E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\application\bis\controller\Register.php:32]
+
+---------------------------------------------------------------
+[ 2018-02-27T13:10:37+08:00 ] 127.0.0.1 127.0.0.1 POST /myo2o/public/index.php/bis/register/add.html
+[ error ] [8]Use of undefined constant ture - assumed 'ture'[E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\application\bis\controller\Register.php:31]
+
+---------------------------------------------------------------
+[ 2018-02-27T13:14:17+08:00 ] 127.0.0.1 127.0.0.1 POST /myo2o/public/index.php/bis/register/add.html
+[ error ] [0]数据表字段不存在:[api_address][E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\thinkphp\library\think\db\Builder.php:95]
+
+---------------------------------------------------------------
+[ 2018-02-27T13:20:32+08:00 ] 127.0.0.1 127.0.0.1 POST /myo2o/public/index.php/bis/register/add.html
+[ error ] [0]数据表字段不存在:[api_address][E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\thinkphp\library\think\db\Builder.php:95]
+
+---------------------------------------------------------------
+[ 2018-02-27T13:21:57+08:00 ] 127.0.0.1 127.0.0.1 GET /myo2o/public/index.php/admin/bis/status.html?id=2&status=1
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is_main' in 'where clause'[E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\thinkphp\library\think\db\Connection.php:405]
+
+---------------------------------------------------------------
+[ 2018-02-27T13:22:29+08:00 ] 127.0.0.1 127.0.0.1 GET /myo2o/public/index.php/admin/deal/apply.html
+[ error ] [0]method not exist:think\db\Query->getNormalCitys[E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\thinkphp\library\think\db\Query.php:91]
+
+---------------------------------------------------------------
+[ 2018-02-27T13:46:37+08:00 ] 127.0.0.1 127.0.0.1 POST /myo2o/public/index.php/bis/register/add.html
+[ error ] [0]数据表字段不存在:[api_address][E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\thinkphp\library\think\db\Builder.php:95]
+
+---------------------------------------------------------------
+[ 2018-02-27T14:10:46+08:00 ] 127.0.0.1 127.0.0.1 POST /myo2o/public/index.php/bis/register/add.html
+[ error ] [8]未定义数组索引: results[E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\application\bis\controller\Register.php:32]
+
+---------------------------------------------------------------
+[ 2018-02-27T14:11:12+08:00 ] 127.0.0.1 127.0.0.1 POST /myo2o/public/index.php/bis/register/add.html
+[ error ] [8]未定义数组索引: status[E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\application\bis\controller\Register.php:32]
+
+---------------------------------------------------------------
+[ 2018-02-27T14:12:07+08:00 ] 127.0.0.1 127.0.0.1 POST /myo2o/public/index.php/bis/register/add.html
+[ error ] [0]语法解析错误: syntax error, unexpected '%'[E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\application\bis\controller\Register.php:32]
+
+---------------------------------------------------------------
+[ 2018-02-27T14:20:33+08:00 ] 127.0.0.1 127.0.0.1 POST /myo2o/public/index.php/bis/register/add.html
+[ error ] [0]数据表字段不存在:[api_address][E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\thinkphp\library\think\db\Builder.php:95]
+
+---------------------------------------------------------------

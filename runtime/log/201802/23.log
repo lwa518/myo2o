@@ -1,0 +1,2251 @@
+[ 2018-02-23T11:50:58+08:00 ] 127.0.0.1 127.0.0.1 GET /myo2o/public/index.php?s=admin/index/index
+[ log ] localhost/myo2o/public/index.php?s=admin/index/index [运行时间：0.073004s][吞吐率：13.70req/s] [内存消耗：1,191.80kb] [文件加载：38]
+[ info ] [ LANG ] E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1896228864; yvJD_2132_saltkey=REoMi8Yd; yvJD_2132_lastvisit=1518876226; yvJD_2132_ulastactivity=1818nt7P61DLF2zsINL6y2DVeA%2BAsZykIh6SQYvQ8DFLSwBljG%2FO; yvJD_2132_nofavfid=1; j0AO_2132_widthauto=1; j0AO_2132_saltkey=jrb3tTeC; j0AO_2132_lastvisit=1519133195; j0AO_2132_smile=1D1; j0AO_2132_nofavfid=1; j0AO_2132_collapse=_category_1_; ECS[username]=lwa510; ECS[visit_times]=8; j0AO_2132_sid=vN1yKn; j0AO_2132_ulastactivity=423dVQqybUL4LYA8wMR%2BUlspqgFXpO1Ydqfrupl9NUO4dVCrT%2F6N; j0AO_2132_lastshowtime=1%7C1519272675; j0AO_2132_lastviewtime=1%7C1519272675; j0AO_2132_lastcheckfeed=1%7C1519272871; j0AO_2132_lastact=1519272871%09misc.php%09patch; Hm_lvt_080836300300be57b7f34f4b3e97d911=1518324716,1519276402; Huiskin=green',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\public/../application/admin\view\index\index.html [ array (
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-23T11:50:59+08:00 ] 127.0.0.1 127.0.0.1 GET /myo2o/public/index.php/admin/index/welcome.html
+[ log ] localhost/myo2o/public/index.php/admin/index/welcome.html [运行时间：0.047002s][吞吐率：21.28req/s] [内存消耗：1,130.44kb] [文件加载：37]
+[ info ] [ LANG ] E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'welcome',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1896228864; yvJD_2132_saltkey=REoMi8Yd; yvJD_2132_lastvisit=1518876226; yvJD_2132_ulastactivity=1818nt7P61DLF2zsINL6y2DVeA%2BAsZykIh6SQYvQ8DFLSwBljG%2FO; yvJD_2132_nofavfid=1; j0AO_2132_widthauto=1; j0AO_2132_saltkey=jrb3tTeC; j0AO_2132_lastvisit=1519133195; j0AO_2132_smile=1D1; j0AO_2132_nofavfid=1; j0AO_2132_collapse=_category_1_; ECS[username]=lwa510; ECS[visit_times]=8; j0AO_2132_sid=vN1yKn; j0AO_2132_ulastactivity=423dVQqybUL4LYA8wMR%2BUlspqgFXpO1Ydqfrupl9NUO4dVCrT%2F6N; j0AO_2132_lastshowtime=1%7C1519272675; j0AO_2132_lastviewtime=1%7C1519272675; j0AO_2132_lastcheckfeed=1%7C1519272871; j0AO_2132_lastact=1519272871%09misc.php%09patch; Hm_lvt_080836300300be57b7f34f4b3e97d911=1518324716,1519276402; Huiskin=green; PHPSESSID=b9v9msosc81tli67k08tmpmn10',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/myo2o/public/index.php?s=admin/index/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->welcome[ E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\public/../application/admin\view\index\welcome.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-23T11:51:35+08:00 ] 127.0.0.1 127.0.0.1 GET /myo2o/public/index.php/bis/login/index.html
+[ log ] localhost/myo2o/public/index.php/bis/login/index.html [运行时间：0.147009s][吞吐率：6.80req/s] [内存消耗：1,176.89kb] [文件加载：38]
+[ info ] [ LANG ] E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1896228864; yvJD_2132_saltkey=REoMi8Yd; yvJD_2132_lastvisit=1518876226; yvJD_2132_ulastactivity=1818nt7P61DLF2zsINL6y2DVeA%2BAsZykIh6SQYvQ8DFLSwBljG%2FO; yvJD_2132_nofavfid=1; j0AO_2132_widthauto=1; j0AO_2132_saltkey=jrb3tTeC; j0AO_2132_lastvisit=1519133195; j0AO_2132_smile=1D1; j0AO_2132_nofavfid=1; j0AO_2132_collapse=_category_1_; ECS[username]=lwa510; ECS[visit_times]=8; j0AO_2132_sid=vN1yKn; j0AO_2132_ulastactivity=423dVQqybUL4LYA8wMR%2BUlspqgFXpO1Ydqfrupl9NUO4dVCrT%2F6N; j0AO_2132_lastshowtime=1%7C1519272675; j0AO_2132_lastviewtime=1%7C1519272675; j0AO_2132_lastcheckfeed=1%7C1519272871; j0AO_2132_lastact=1519272871%09misc.php%09patch; Huiskin=green; PHPSESSID=b9v9msosc81tli67k08tmpmn10; Hm_lvt_080836300300be57b7f34f4b3e97d911=1518324716,1519276402,1519357860; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1519357860',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\bis\controller\Login->index[ E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\application\bis\controller\Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\public/../application/bis\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-23T11:51:37+08:00 ] 127.0.0.1 127.0.0.1 GET /myo2o/public/index.php/bis/register/index.html
+[ log ] localhost/myo2o/public/index.php/bis/register/index.html [运行时间：0.240014s][吞吐率：4.17req/s] [内存消耗：2,015.16kb] [文件加载：48]
+[ info ] [ LANG ] E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'register',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1896228864; yvJD_2132_saltkey=REoMi8Yd; yvJD_2132_lastvisit=1518876226; yvJD_2132_ulastactivity=1818nt7P61DLF2zsINL6y2DVeA%2BAsZykIh6SQYvQ8DFLSwBljG%2FO; yvJD_2132_nofavfid=1; j0AO_2132_widthauto=1; j0AO_2132_saltkey=jrb3tTeC; j0AO_2132_lastvisit=1519133195; j0AO_2132_smile=1D1; j0AO_2132_nofavfid=1; j0AO_2132_collapse=_category_1_; ECS[username]=lwa510; ECS[visit_times]=8; j0AO_2132_sid=vN1yKn; j0AO_2132_ulastactivity=423dVQqybUL4LYA8wMR%2BUlspqgFXpO1Ydqfrupl9NUO4dVCrT%2F6N; j0AO_2132_lastshowtime=1%7C1519272675; j0AO_2132_lastviewtime=1%7C1519272675; j0AO_2132_lastcheckfeed=1%7C1519272871; j0AO_2132_lastact=1519272871%09misc.php%09patch; Huiskin=green; PHPSESSID=b9v9msosc81tli67k08tmpmn10; Hm_lvt_080836300300be57b7f34f4b3e97d911=1518324716,1519276402,1519357860; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1519357860',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/myo2o/public/index.php/bis/login/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\bis\controller\Register->index[ E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\application\bis\controller\Register.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\public/../application/bis\view\register\index.html [ array (
+  0 => 'citys',
+  1 => 'categorys',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-23T11:52:14+08:00 ] 127.0.0.1 127.0.0.1 GET /myo2o/public/index.php/bis/register/index.html
+[ log ] localhost/myo2o/public/index.php/bis/register/index.html [运行时间：0.048002s][吞吐率：20.83req/s] [内存消耗：2,015.24kb] [文件加载：48]
+[ info ] [ LANG ] E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'register',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1896228864; yvJD_2132_saltkey=REoMi8Yd; yvJD_2132_lastvisit=1518876226; yvJD_2132_ulastactivity=1818nt7P61DLF2zsINL6y2DVeA%2BAsZykIh6SQYvQ8DFLSwBljG%2FO; yvJD_2132_nofavfid=1; j0AO_2132_widthauto=1; j0AO_2132_saltkey=jrb3tTeC; j0AO_2132_lastvisit=1519133195; j0AO_2132_smile=1D1; j0AO_2132_nofavfid=1; j0AO_2132_collapse=_category_1_; ECS[username]=lwa510; ECS[visit_times]=8; j0AO_2132_sid=vN1yKn; j0AO_2132_ulastactivity=423dVQqybUL4LYA8wMR%2BUlspqgFXpO1Ydqfrupl9NUO4dVCrT%2F6N; j0AO_2132_lastshowtime=1%7C1519272675; j0AO_2132_lastviewtime=1%7C1519272675; j0AO_2132_lastcheckfeed=1%7C1519272871; j0AO_2132_lastact=1519272871%09misc.php%09patch; Huiskin=green; PHPSESSID=b9v9msosc81tli67k08tmpmn10; Hm_lvt_080836300300be57b7f34f4b3e97d911=1518324716,1519276402,1519357860; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1519357860',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/myo2o/public/index.php/bis/login/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\bis\controller\Register->index[ E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\application\bis\controller\Register.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\public/../application/bis\view\register\index.html [ array (
+  0 => 'citys',
+  1 => 'categorys',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-23T11:56:18+08:00 ] 127.0.0.1 127.0.0.1 GET /myo2o/public/index.php/bis/register/index.html
+[ log ] localhost/myo2o/public/index.php/bis/register/index.html [运行时间：0.059003s][吞吐率：16.95req/s] [内存消耗：2,015.24kb] [文件加载：48]
+[ info ] [ LANG ] E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'register',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1896228864; yvJD_2132_saltkey=REoMi8Yd; yvJD_2132_lastvisit=1518876226; yvJD_2132_ulastactivity=1818nt7P61DLF2zsINL6y2DVeA%2BAsZykIh6SQYvQ8DFLSwBljG%2FO; yvJD_2132_nofavfid=1; j0AO_2132_widthauto=1; j0AO_2132_saltkey=jrb3tTeC; j0AO_2132_lastvisit=1519133195; j0AO_2132_smile=1D1; j0AO_2132_nofavfid=1; j0AO_2132_collapse=_category_1_; ECS[username]=lwa510; ECS[visit_times]=8; j0AO_2132_sid=vN1yKn; j0AO_2132_ulastactivity=423dVQqybUL4LYA8wMR%2BUlspqgFXpO1Ydqfrupl9NUO4dVCrT%2F6N; j0AO_2132_lastshowtime=1%7C1519272675; j0AO_2132_lastviewtime=1%7C1519272675; j0AO_2132_lastcheckfeed=1%7C1519272871; j0AO_2132_lastact=1519272871%09misc.php%09patch; Huiskin=green; PHPSESSID=b9v9msosc81tli67k08tmpmn10; Hm_lvt_080836300300be57b7f34f4b3e97d911=1518324716,1519276402,1519357860; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1519357860',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/myo2o/public/index.php/bis/login/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\bis\controller\Register->index[ E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\application\bis\controller\Register.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\public/../application/bis\view\register\index.html [ array (
+  0 => 'citys',
+  1 => 'categorys',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-23T11:56:19+08:00 ] 127.0.0.1 127.0.0.1 GET /myo2o/public/index.php/bis/register/
+[ log ] localhost/myo2o/public/index.php/bis/register/ [运行时间：0.040002s][吞吐率：25.00req/s] [内存消耗：2,014.98kb] [文件加载：48]
+[ info ] [ LANG ] E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'register',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1896228864; yvJD_2132_saltkey=REoMi8Yd; yvJD_2132_lastvisit=1518876226; yvJD_2132_ulastactivity=1818nt7P61DLF2zsINL6y2DVeA%2BAsZykIh6SQYvQ8DFLSwBljG%2FO; yvJD_2132_nofavfid=1; j0AO_2132_widthauto=1; j0AO_2132_saltkey=jrb3tTeC; j0AO_2132_lastvisit=1519133195; j0AO_2132_smile=1D1; j0AO_2132_nofavfid=1; j0AO_2132_collapse=_category_1_; ECS[username]=lwa510; ECS[visit_times]=8; j0AO_2132_sid=vN1yKn; j0AO_2132_ulastactivity=423dVQqybUL4LYA8wMR%2BUlspqgFXpO1Ydqfrupl9NUO4dVCrT%2F6N; j0AO_2132_lastshowtime=1%7C1519272675; j0AO_2132_lastviewtime=1%7C1519272675; j0AO_2132_lastcheckfeed=1%7C1519272871; j0AO_2132_lastact=1519272871%09misc.php%09patch; Huiskin=green; PHPSESSID=b9v9msosc81tli67k08tmpmn10; Hm_lvt_080836300300be57b7f34f4b3e97d911=1518324716,1519276402,1519357860; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1519357860',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/myo2o/public/index.php/bis/register/index.html',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36',
+  'x-requested-with' => 'ShockwaveFlash/28.0.0.161',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\bis\controller\Register->index[ E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\application\bis\controller\Register.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\public/../application/bis\view\register\index.html [ array (
+  0 => 'citys',
+  1 => 'categorys',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-23T11:56:19+08:00 ] 127.0.0.1 127.0.0.1 GET /myo2o/public/index.php/bis/register/
+[ log ] localhost/myo2o/public/index.php/bis/register/ [运行时间：0.032002s][吞吐率：31.25req/s] [内存消耗：2,014.98kb] [文件加载：48]
+[ info ] [ LANG ] E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'register',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1896228864; yvJD_2132_saltkey=REoMi8Yd; yvJD_2132_lastvisit=1518876226; yvJD_2132_ulastactivity=1818nt7P61DLF2zsINL6y2DVeA%2BAsZykIh6SQYvQ8DFLSwBljG%2FO; yvJD_2132_nofavfid=1; j0AO_2132_widthauto=1; j0AO_2132_saltkey=jrb3tTeC; j0AO_2132_lastvisit=1519133195; j0AO_2132_smile=1D1; j0AO_2132_nofavfid=1; j0AO_2132_collapse=_category_1_; ECS[username]=lwa510; ECS[visit_times]=8; j0AO_2132_sid=vN1yKn; j0AO_2132_ulastactivity=423dVQqybUL4LYA8wMR%2BUlspqgFXpO1Ydqfrupl9NUO4dVCrT%2F6N; j0AO_2132_lastshowtime=1%7C1519272675; j0AO_2132_lastviewtime=1%7C1519272675; j0AO_2132_lastcheckfeed=1%7C1519272871; j0AO_2132_lastact=1519272871%09misc.php%09patch; Huiskin=green; PHPSESSID=b9v9msosc81tli67k08tmpmn10; Hm_lvt_080836300300be57b7f34f4b3e97d911=1518324716,1519276402,1519357860; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1519357860',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/myo2o/public/index.php/bis/register/index.html',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36',
+  'x-requested-with' => 'ShockwaveFlash/28.0.0.161',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\bis\controller\Register->index[ E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\application\bis\controller\Register.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\public/../application/bis\view\register\index.html [ array (
+  0 => 'citys',
+  1 => 'categorys',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-23T11:56:31+08:00 ] 127.0.0.1 127.0.0.1 POST /myo2o/public/index.php/api/image/upload.html
+[ log ] localhost/myo2o/public/index.php/api/image/upload.html [运行时间：0.106006s][吞吐率：9.43req/s] [内存消耗：1,163.82kb] [文件加载：38]
+[ info ] [ LANG ] E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'image',
+    2 => 'upload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1896228864; yvJD_2132_saltkey=REoMi8Yd; yvJD_2132_lastvisit=1518876226; yvJD_2132_ulastactivity=1818nt7P61DLF2zsINL6y2DVeA%2BAsZykIh6SQYvQ8DFLSwBljG%2FO; yvJD_2132_nofavfid=1; j0AO_2132_widthauto=1; j0AO_2132_saltkey=jrb3tTeC; j0AO_2132_lastvisit=1519133195; j0AO_2132_smile=1D1; j0AO_2132_nofavfid=1; j0AO_2132_collapse=_category_1_; ECS[username]=lwa510; ECS[visit_times]=8; j0AO_2132_sid=vN1yKn; j0AO_2132_ulastactivity=423dVQqybUL4LYA8wMR%2BUlspqgFXpO1Ydqfrupl9NUO4dVCrT%2F6N; j0AO_2132_lastshowtime=1%7C1519272675; j0AO_2132_lastviewtime=1%7C1519272675; j0AO_2132_lastcheckfeed=1%7C1519272871; j0AO_2132_lastact=1519272871%09misc.php%09patch; Huiskin=green; PHPSESSID=b9v9msosc81tli67k08tmpmn10; Hm_lvt_080836300300be57b7f34f4b3e97d911=1518324716,1519276402,1519357860; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1519357860',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/myo2o/public/index.php/bis/register/index.html',
+  'accept' => '*/*',
+  'content-type' => 'multipart/form-data; boundary=----------gL6ei4KM7cH2gL6cH2GI3GI3Ij5ei4',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36',
+  'x-requested-with' => 'ShockwaveFlash/28.0.0.161',
+  'origin' => 'http://localhost',
+  'content-length' => '846355',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'Filename' => 'Desert.jpg',
+  'Upload' => 'Submit Query',
+)
+[ info ] [ RUN ] app\api\controller\Image->upload[ E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\application\api\controller\Image.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-23T11:58:11+08:00 ] 127.0.0.1 127.0.0.1 GET /myo2o/public/index.php/bis/register/index.html
+[ log ] localhost/myo2o/public/index.php/bis/register/index.html [运行时间：0.065003s][吞吐率：15.38req/s] [内存消耗：2,015.24kb] [文件加载：48]
+[ info ] [ LANG ] E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'register',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1896228864; yvJD_2132_saltkey=REoMi8Yd; yvJD_2132_lastvisit=1518876226; yvJD_2132_ulastactivity=1818nt7P61DLF2zsINL6y2DVeA%2BAsZykIh6SQYvQ8DFLSwBljG%2FO; yvJD_2132_nofavfid=1; j0AO_2132_widthauto=1; j0AO_2132_saltkey=jrb3tTeC; j0AO_2132_lastvisit=1519133195; j0AO_2132_smile=1D1; j0AO_2132_nofavfid=1; j0AO_2132_collapse=_category_1_; ECS[username]=lwa510; ECS[visit_times]=8; j0AO_2132_sid=vN1yKn; j0AO_2132_ulastactivity=423dVQqybUL4LYA8wMR%2BUlspqgFXpO1Ydqfrupl9NUO4dVCrT%2F6N; j0AO_2132_lastshowtime=1%7C1519272675; j0AO_2132_lastviewtime=1%7C1519272675; j0AO_2132_lastcheckfeed=1%7C1519272871; j0AO_2132_lastact=1519272871%09misc.php%09patch; Huiskin=green; PHPSESSID=b9v9msosc81tli67k08tmpmn10; Hm_lvt_080836300300be57b7f34f4b3e97d911=1518324716,1519276402,1519357860; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1519357860',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/myo2o/public/index.php/bis/login/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\bis\controller\Register->index[ E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\application\bis\controller\Register.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\public/../application/bis\view\register\index.html [ array (
+  0 => 'citys',
+  1 => 'categorys',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-23T11:58:12+08:00 ] 127.0.0.1 127.0.0.1 GET /myo2o/public/index.php/bis/register/
+[ log ] localhost/myo2o/public/index.php/bis/register/ [运行时间：0.037002s][吞吐率：27.03req/s] [内存消耗：2,014.98kb] [文件加载：48]
+[ info ] [ LANG ] E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'register',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1896228864; yvJD_2132_saltkey=REoMi8Yd; yvJD_2132_lastvisit=1518876226; yvJD_2132_ulastactivity=1818nt7P61DLF2zsINL6y2DVeA%2BAsZykIh6SQYvQ8DFLSwBljG%2FO; yvJD_2132_nofavfid=1; j0AO_2132_widthauto=1; j0AO_2132_saltkey=jrb3tTeC; j0AO_2132_lastvisit=1519133195; j0AO_2132_smile=1D1; j0AO_2132_nofavfid=1; j0AO_2132_collapse=_category_1_; ECS[username]=lwa510; ECS[visit_times]=8; j0AO_2132_sid=vN1yKn; j0AO_2132_ulastactivity=423dVQqybUL4LYA8wMR%2BUlspqgFXpO1Ydqfrupl9NUO4dVCrT%2F6N; j0AO_2132_lastshowtime=1%7C1519272675; j0AO_2132_lastviewtime=1%7C1519272675; j0AO_2132_lastcheckfeed=1%7C1519272871; j0AO_2132_lastact=1519272871%09misc.php%09patch; Huiskin=green; PHPSESSID=b9v9msosc81tli67k08tmpmn10; Hm_lvt_080836300300be57b7f34f4b3e97d911=1518324716,1519276402,1519357860; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1519357860',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/myo2o/public/index.php/bis/register/index.html',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36',
+  'x-requested-with' => 'ShockwaveFlash/28.0.0.161',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\bis\controller\Register->index[ E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\application\bis\controller\Register.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\public/../application/bis\view\register\index.html [ array (
+  0 => 'citys',
+  1 => 'categorys',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-23T11:58:12+08:00 ] 127.0.0.1 127.0.0.1 GET /myo2o/public/index.php/bis/register/
+[ log ] localhost/myo2o/public/index.php/bis/register/ [运行时间：0.031001s][吞吐率：32.26req/s] [内存消耗：2,014.98kb] [文件加载：48]
+[ info ] [ LANG ] E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'register',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1896228864; yvJD_2132_saltkey=REoMi8Yd; yvJD_2132_lastvisit=1518876226; yvJD_2132_ulastactivity=1818nt7P61DLF2zsINL6y2DVeA%2BAsZykIh6SQYvQ8DFLSwBljG%2FO; yvJD_2132_nofavfid=1; j0AO_2132_widthauto=1; j0AO_2132_saltkey=jrb3tTeC; j0AO_2132_lastvisit=1519133195; j0AO_2132_smile=1D1; j0AO_2132_nofavfid=1; j0AO_2132_collapse=_category_1_; ECS[username]=lwa510; ECS[visit_times]=8; j0AO_2132_sid=vN1yKn; j0AO_2132_ulastactivity=423dVQqybUL4LYA8wMR%2BUlspqgFXpO1Ydqfrupl9NUO4dVCrT%2F6N; j0AO_2132_lastshowtime=1%7C1519272675; j0AO_2132_lastviewtime=1%7C1519272675; j0AO_2132_lastcheckfeed=1%7C1519272871; j0AO_2132_lastact=1519272871%09misc.php%09patch; Huiskin=green; PHPSESSID=b9v9msosc81tli67k08tmpmn10; Hm_lvt_080836300300be57b7f34f4b3e97d911=1518324716,1519276402,1519357860; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1519357860',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/myo2o/public/index.php/bis/register/index.html',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36',
+  'x-requested-with' => 'ShockwaveFlash/28.0.0.161',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\bis\controller\Register->index[ E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\application\bis\controller\Register.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\public/../application/bis\view\register\index.html [ array (
+  0 => 'citys',
+  1 => 'categorys',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-23T11:58:18+08:00 ] 127.0.0.1 127.0.0.1 POST /myo2o/public/index.php/api/image/upload.html
+[ log ] localhost/myo2o/public/index.php/api/image/upload.html [运行时间：0.022001s][吞吐率：45.45req/s] [内存消耗：1,163.82kb] [文件加载：38]
+[ info ] [ LANG ] E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'image',
+    2 => 'upload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1896228864; yvJD_2132_saltkey=REoMi8Yd; yvJD_2132_lastvisit=1518876226; yvJD_2132_ulastactivity=1818nt7P61DLF2zsINL6y2DVeA%2BAsZykIh6SQYvQ8DFLSwBljG%2FO; yvJD_2132_nofavfid=1; j0AO_2132_widthauto=1; j0AO_2132_saltkey=jrb3tTeC; j0AO_2132_lastvisit=1519133195; j0AO_2132_smile=1D1; j0AO_2132_nofavfid=1; j0AO_2132_collapse=_category_1_; ECS[username]=lwa510; ECS[visit_times]=8; j0AO_2132_sid=vN1yKn; j0AO_2132_ulastactivity=423dVQqybUL4LYA8wMR%2BUlspqgFXpO1Ydqfrupl9NUO4dVCrT%2F6N; j0AO_2132_lastshowtime=1%7C1519272675; j0AO_2132_lastviewtime=1%7C1519272675; j0AO_2132_lastcheckfeed=1%7C1519272871; j0AO_2132_lastact=1519272871%09misc.php%09patch; Huiskin=green; PHPSESSID=b9v9msosc81tli67k08tmpmn10; Hm_lvt_080836300300be57b7f34f4b3e97d911=1518324716,1519276402,1519357860; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1519357860',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/myo2o/public/index.php/bis/register/index.html',
+  'accept' => '*/*',
+  'content-type' => 'multipart/form-data; boundary=----------cH2ei4Ef1gL6GI3GI3Ij5GI3gL6KM7',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36',
+  'x-requested-with' => 'ShockwaveFlash/28.0.0.161',
+  'origin' => 'http://localhost',
+  'content-length' => '778253',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'Filename' => 'Penguins.jpg',
+  'Upload' => 'Submit Query',
+)
+[ info ] [ RUN ] app\api\controller\Image->upload[ E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\application\api\controller\Image.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-23T11:59:30+08:00 ] 127.0.0.1 127.0.0.1 GET /myo2o/public/index.php/bis/register/index.html
+[ log ] localhost/myo2o/public/index.php/bis/register/index.html [运行时间：0.067004s][吞吐率：14.92req/s] [内存消耗：2,015.24kb] [文件加载：48]
+[ info ] [ LANG ] E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'register',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1896228864; yvJD_2132_saltkey=REoMi8Yd; yvJD_2132_lastvisit=1518876226; yvJD_2132_ulastactivity=1818nt7P61DLF2zsINL6y2DVeA%2BAsZykIh6SQYvQ8DFLSwBljG%2FO; yvJD_2132_nofavfid=1; j0AO_2132_widthauto=1; j0AO_2132_saltkey=jrb3tTeC; j0AO_2132_lastvisit=1519133195; j0AO_2132_smile=1D1; j0AO_2132_nofavfid=1; j0AO_2132_collapse=_category_1_; ECS[username]=lwa510; ECS[visit_times]=8; j0AO_2132_sid=vN1yKn; j0AO_2132_ulastactivity=423dVQqybUL4LYA8wMR%2BUlspqgFXpO1Ydqfrupl9NUO4dVCrT%2F6N; j0AO_2132_lastshowtime=1%7C1519272675; j0AO_2132_lastviewtime=1%7C1519272675; j0AO_2132_lastcheckfeed=1%7C1519272871; j0AO_2132_lastact=1519272871%09misc.php%09patch; Huiskin=green; PHPSESSID=b9v9msosc81tli67k08tmpmn10; Hm_lvt_080836300300be57b7f34f4b3e97d911=1518324716,1519276402,1519357860; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1519357860',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/myo2o/public/index.php/bis/login/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\bis\controller\Register->index[ E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\application\bis\controller\Register.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\public/../application/bis\view\register\index.html [ array (
+  0 => 'citys',
+  1 => 'categorys',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-23T11:59:31+08:00 ] 127.0.0.1 127.0.0.1 GET /myo2o/public/index.php/bis/register/
+[ log ] localhost/myo2o/public/index.php/bis/register/ [运行时间：0.077005s][吞吐率：12.99req/s] [内存消耗：2,014.98kb] [文件加载：48]
+[ info ] [ LANG ] E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'register',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1896228864; yvJD_2132_saltkey=REoMi8Yd; yvJD_2132_lastvisit=1518876226; yvJD_2132_ulastactivity=1818nt7P61DLF2zsINL6y2DVeA%2BAsZykIh6SQYvQ8DFLSwBljG%2FO; yvJD_2132_nofavfid=1; j0AO_2132_widthauto=1; j0AO_2132_saltkey=jrb3tTeC; j0AO_2132_lastvisit=1519133195; j0AO_2132_smile=1D1; j0AO_2132_nofavfid=1; j0AO_2132_collapse=_category_1_; ECS[username]=lwa510; ECS[visit_times]=8; j0AO_2132_sid=vN1yKn; j0AO_2132_ulastactivity=423dVQqybUL4LYA8wMR%2BUlspqgFXpO1Ydqfrupl9NUO4dVCrT%2F6N; j0AO_2132_lastshowtime=1%7C1519272675; j0AO_2132_lastviewtime=1%7C1519272675; j0AO_2132_lastcheckfeed=1%7C1519272871; j0AO_2132_lastact=1519272871%09misc.php%09patch; Huiskin=green; PHPSESSID=b9v9msosc81tli67k08tmpmn10; Hm_lvt_080836300300be57b7f34f4b3e97d911=1518324716,1519276402,1519357860; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1519357860',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/myo2o/public/index.php/bis/register/index.html',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36',
+  'x-requested-with' => 'ShockwaveFlash/28.0.0.161',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\bis\controller\Register->index[ E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\application\bis\controller\Register.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\public/../application/bis\view\register\index.html [ array (
+  0 => 'citys',
+  1 => 'categorys',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-23T11:59:31+08:00 ] 127.0.0.1 127.0.0.1 GET /myo2o/public/index.php/bis/register/
+[ log ] localhost/myo2o/public/index.php/bis/register/ [运行时间：0.047002s][吞吐率：21.28req/s] [内存消耗：2,014.98kb] [文件加载：48]
+[ info ] [ LANG ] E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'register',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1896228864; yvJD_2132_saltkey=REoMi8Yd; yvJD_2132_lastvisit=1518876226; yvJD_2132_ulastactivity=1818nt7P61DLF2zsINL6y2DVeA%2BAsZykIh6SQYvQ8DFLSwBljG%2FO; yvJD_2132_nofavfid=1; j0AO_2132_widthauto=1; j0AO_2132_saltkey=jrb3tTeC; j0AO_2132_lastvisit=1519133195; j0AO_2132_smile=1D1; j0AO_2132_nofavfid=1; j0AO_2132_collapse=_category_1_; ECS[username]=lwa510; ECS[visit_times]=8; j0AO_2132_sid=vN1yKn; j0AO_2132_ulastactivity=423dVQqybUL4LYA8wMR%2BUlspqgFXpO1Ydqfrupl9NUO4dVCrT%2F6N; j0AO_2132_lastshowtime=1%7C1519272675; j0AO_2132_lastviewtime=1%7C1519272675; j0AO_2132_lastcheckfeed=1%7C1519272871; j0AO_2132_lastact=1519272871%09misc.php%09patch; Huiskin=green; PHPSESSID=b9v9msosc81tli67k08tmpmn10; Hm_lvt_080836300300be57b7f34f4b3e97d911=1518324716,1519276402,1519357860; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1519357860',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/myo2o/public/index.php/bis/register/index.html',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36',
+  'x-requested-with' => 'ShockwaveFlash/28.0.0.161',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\bis\controller\Register->index[ E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\application\bis\controller\Register.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\public/../application/bis\view\register\index.html [ array (
+  0 => 'citys',
+  1 => 'categorys',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-23T12:00:45+08:00 ] 127.0.0.1 127.0.0.1 GET /myo2o/public/index.php/bis/register/index.html
+[ log ] localhost/myo2o/public/index.php/bis/register/index.html [运行时间：0.045003s][吞吐率：22.22req/s] [内存消耗：2,015.24kb] [文件加载：48]
+[ info ] [ LANG ] E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'register',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1896228864; yvJD_2132_saltkey=REoMi8Yd; yvJD_2132_lastvisit=1518876226; yvJD_2132_ulastactivity=1818nt7P61DLF2zsINL6y2DVeA%2BAsZykIh6SQYvQ8DFLSwBljG%2FO; yvJD_2132_nofavfid=1; j0AO_2132_widthauto=1; j0AO_2132_saltkey=jrb3tTeC; j0AO_2132_lastvisit=1519133195; j0AO_2132_smile=1D1; j0AO_2132_nofavfid=1; j0AO_2132_collapse=_category_1_; ECS[username]=lwa510; ECS[visit_times]=8; j0AO_2132_sid=vN1yKn; j0AO_2132_ulastactivity=423dVQqybUL4LYA8wMR%2BUlspqgFXpO1Ydqfrupl9NUO4dVCrT%2F6N; j0AO_2132_lastshowtime=1%7C1519272675; j0AO_2132_lastviewtime=1%7C1519272675; j0AO_2132_lastcheckfeed=1%7C1519272871; j0AO_2132_lastact=1519272871%09misc.php%09patch; Huiskin=green; PHPSESSID=b9v9msosc81tli67k08tmpmn10; Hm_lvt_080836300300be57b7f34f4b3e97d911=1518324716,1519276402,1519357860; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1519357860',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/myo2o/public/index.php/bis/login/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\bis\controller\Register->index[ E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\application\bis\controller\Register.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\public/../application/bis\view\register\index.html [ array (
+  0 => 'citys',
+  1 => 'categorys',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-23T12:00:46+08:00 ] 127.0.0.1 127.0.0.1 GET /myo2o/public/index.php/bis/register/
+[ log ] localhost/myo2o/public/index.php/bis/register/ [运行时间：0.072005s][吞吐率：13.89req/s] [内存消耗：2,014.98kb] [文件加载：48]
+[ info ] [ LANG ] E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'register',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1896228864; yvJD_2132_saltkey=REoMi8Yd; yvJD_2132_lastvisit=1518876226; yvJD_2132_ulastactivity=1818nt7P61DLF2zsINL6y2DVeA%2BAsZykIh6SQYvQ8DFLSwBljG%2FO; yvJD_2132_nofavfid=1; j0AO_2132_widthauto=1; j0AO_2132_saltkey=jrb3tTeC; j0AO_2132_lastvisit=1519133195; j0AO_2132_smile=1D1; j0AO_2132_nofavfid=1; j0AO_2132_collapse=_category_1_; ECS[username]=lwa510; ECS[visit_times]=8; j0AO_2132_sid=vN1yKn; j0AO_2132_ulastactivity=423dVQqybUL4LYA8wMR%2BUlspqgFXpO1Ydqfrupl9NUO4dVCrT%2F6N; j0AO_2132_lastshowtime=1%7C1519272675; j0AO_2132_lastviewtime=1%7C1519272675; j0AO_2132_lastcheckfeed=1%7C1519272871; j0AO_2132_lastact=1519272871%09misc.php%09patch; Huiskin=green; PHPSESSID=b9v9msosc81tli67k08tmpmn10; Hm_lvt_080836300300be57b7f34f4b3e97d911=1518324716,1519276402,1519357860; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1519357860',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/myo2o/public/index.php/bis/register/index.html',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36',
+  'x-requested-with' => 'ShockwaveFlash/28.0.0.161',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\bis\controller\Register->index[ E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\application\bis\controller\Register.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\public/../application/bis\view\register\index.html [ array (
+  0 => 'citys',
+  1 => 'categorys',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-23T12:00:46+08:00 ] 127.0.0.1 127.0.0.1 GET /myo2o/public/index.php/bis/register/
+[ log ] localhost/myo2o/public/index.php/bis/register/ [运行时间：0.070004s][吞吐率：14.28req/s] [内存消耗：2,014.98kb] [文件加载：48]
+[ info ] [ LANG ] E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'register',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1896228864; yvJD_2132_saltkey=REoMi8Yd; yvJD_2132_lastvisit=1518876226; yvJD_2132_ulastactivity=1818nt7P61DLF2zsINL6y2DVeA%2BAsZykIh6SQYvQ8DFLSwBljG%2FO; yvJD_2132_nofavfid=1; j0AO_2132_widthauto=1; j0AO_2132_saltkey=jrb3tTeC; j0AO_2132_lastvisit=1519133195; j0AO_2132_smile=1D1; j0AO_2132_nofavfid=1; j0AO_2132_collapse=_category_1_; ECS[username]=lwa510; ECS[visit_times]=8; j0AO_2132_sid=vN1yKn; j0AO_2132_ulastactivity=423dVQqybUL4LYA8wMR%2BUlspqgFXpO1Ydqfrupl9NUO4dVCrT%2F6N; j0AO_2132_lastshowtime=1%7C1519272675; j0AO_2132_lastviewtime=1%7C1519272675; j0AO_2132_lastcheckfeed=1%7C1519272871; j0AO_2132_lastact=1519272871%09misc.php%09patch; Huiskin=green; PHPSESSID=b9v9msosc81tli67k08tmpmn10; Hm_lvt_080836300300be57b7f34f4b3e97d911=1518324716,1519276402,1519357860; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1519357860',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/myo2o/public/index.php/bis/register/index.html',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36',
+  'x-requested-with' => 'ShockwaveFlash/28.0.0.161',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\bis\controller\Register->index[ E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\application\bis\controller\Register.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\public/../application/bis\view\register\index.html [ array (
+  0 => 'citys',
+  1 => 'categorys',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-23T12:00:59+08:00 ] 127.0.0.1 127.0.0.1 POST /myo2o/public/index.php/api/image/upload.html
+[ log ] localhost/myo2o/public/index.php/api/image/upload.html [运行时间：0.037003s][吞吐率：27.02req/s] [内存消耗：1,163.82kb] [文件加载：38]
+[ info ] [ LANG ] E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'image',
+    2 => 'upload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1896228864; yvJD_2132_saltkey=REoMi8Yd; yvJD_2132_lastvisit=1518876226; yvJD_2132_ulastactivity=1818nt7P61DLF2zsINL6y2DVeA%2BAsZykIh6SQYvQ8DFLSwBljG%2FO; yvJD_2132_nofavfid=1; j0AO_2132_widthauto=1; j0AO_2132_saltkey=jrb3tTeC; j0AO_2132_lastvisit=1519133195; j0AO_2132_smile=1D1; j0AO_2132_nofavfid=1; j0AO_2132_collapse=_category_1_; ECS[username]=lwa510; ECS[visit_times]=8; j0AO_2132_sid=vN1yKn; j0AO_2132_ulastactivity=423dVQqybUL4LYA8wMR%2BUlspqgFXpO1Ydqfrupl9NUO4dVCrT%2F6N; j0AO_2132_lastshowtime=1%7C1519272675; j0AO_2132_lastviewtime=1%7C1519272675; j0AO_2132_lastcheckfeed=1%7C1519272871; j0AO_2132_lastact=1519272871%09misc.php%09patch; Huiskin=green; PHPSESSID=b9v9msosc81tli67k08tmpmn10; Hm_lvt_080836300300be57b7f34f4b3e97d911=1518324716,1519276402,1519357860; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1519357860',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/myo2o/public/index.php/bis/register/index.html',
+  'accept' => '*/*',
+  'content-type' => 'multipart/form-data; boundary=----------gL6ei4gL6gL6Ef1ei4ae0Ef1ae0gL6',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36',
+  'x-requested-with' => 'ShockwaveFlash/28.0.0.161',
+  'origin' => 'http://localhost',
+  'content-length' => '14460',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'Filename' => '1.jpg',
+  'Upload' => 'Submit Query',
+)
+[ info ] [ RUN ] app\api\controller\Image->upload[ E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\application\api\controller\Image.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-23T12:13:47+08:00 ] 127.0.0.1 127.0.0.1 POST /myo2o/public/index.php/api/city/getcitysbyparentid.html
+[ log ] localhost/myo2o/public/index.php/api/city/getcitysbyparentid.html [运行时间：0.048800s][吞吐率：20.49req/s] [内存消耗：1,913.92kb] [文件加载：46]
+[ info ] [ LANG ] E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'city',
+    2 => 'getcitysbyparentid',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1896228864; yvJD_2132_saltkey=REoMi8Yd; yvJD_2132_lastvisit=1518876226; yvJD_2132_ulastactivity=1818nt7P61DLF2zsINL6y2DVeA%2BAsZykIh6SQYvQ8DFLSwBljG%2FO; yvJD_2132_nofavfid=1; j0AO_2132_widthauto=1; j0AO_2132_saltkey=jrb3tTeC; j0AO_2132_lastvisit=1519133195; j0AO_2132_smile=1D1; j0AO_2132_nofavfid=1; j0AO_2132_collapse=_category_1_; ECS[username]=lwa510; ECS[visit_times]=8; j0AO_2132_sid=vN1yKn; j0AO_2132_ulastactivity=423dVQqybUL4LYA8wMR%2BUlspqgFXpO1Ydqfrupl9NUO4dVCrT%2F6N; j0AO_2132_lastviewtime=1%7C1519272675; j0AO_2132_lastcheckfeed=1%7C1519272871; j0AO_2132_lastact=1519272871%09misc.php%09patch; Huiskin=green; PHPSESSID=b9v9msosc81tli67k08tmpmn10; Hm_lvt_080836300300be57b7f34f4b3e97d911=1518324716,1519276402,1519357860; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1519357860',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/myo2o/public/index.php/bis/register/index.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://localhost',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '4',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+)
+[ info ] [ RUN ] app\api\controller\City->getCitysByParentId[ E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\application\api\controller\City.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-23T12:16:08+08:00 ] 127.0.0.1 127.0.0.1 POST /myo2o/public/index.php/api/image/upload.html
+[ log ] localhost/myo2o/public/index.php/api/image/upload.html [运行时间：0.050201s][吞吐率：19.92req/s] [内存消耗：1,163.70kb] [文件加载：38]
+[ info ] [ LANG ] E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'image',
+    2 => 'upload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1896228864; yvJD_2132_saltkey=REoMi8Yd; yvJD_2132_lastvisit=1518876226; yvJD_2132_ulastactivity=1818nt7P61DLF2zsINL6y2DVeA%2BAsZykIh6SQYvQ8DFLSwBljG%2FO; yvJD_2132_nofavfid=1; j0AO_2132_widthauto=1; j0AO_2132_saltkey=jrb3tTeC; j0AO_2132_lastvisit=1519133195; j0AO_2132_smile=1D1; j0AO_2132_nofavfid=1; j0AO_2132_collapse=_category_1_; ECS[username]=lwa510; ECS[visit_times]=8; j0AO_2132_ulastactivity=423dVQqybUL4LYA8wMR%2BUlspqgFXpO1Ydqfrupl9NUO4dVCrT%2F6N; j0AO_2132_lastviewtime=1%7C1519272675; j0AO_2132_lastcheckfeed=1%7C1519272871; Huiskin=green; PHPSESSID=b9v9msosc81tli67k08tmpmn10; Hm_lvt_080836300300be57b7f34f4b3e97d911=1518324716,1519276402,1519357860; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1519357860',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/myo2o/public/index.php/bis/register/index.html',
+  'accept' => '*/*',
+  'content-type' => 'multipart/form-data; boundary=----------cH2GI3Ij5ei4Ij5Ef1Ef1ae0Ij5Ij5',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36',
+  'x-requested-with' => 'ShockwaveFlash/28.0.0.161',
+  'origin' => 'http://localhost',
+  'content-length' => '14460',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'Filename' => '1.jpg',
+  'Upload' => 'Submit Query',
+)
+[ info ] [ RUN ] app\api\controller\Image->upload[ E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\application\api\controller\Image.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-23T12:16:14+08:00 ] 127.0.0.1 127.0.0.1 GET /myo2o/public/index.php/bis/register/index.html
+[ log ] localhost/myo2o/public/index.php/bis/register/index.html [运行时间：0.059004s][吞吐率：16.95req/s] [内存消耗：2,015.12kb] [文件加载：48]
+[ info ] [ LANG ] E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'register',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1896228864; yvJD_2132_saltkey=REoMi8Yd; yvJD_2132_lastvisit=1518876226; yvJD_2132_ulastactivity=1818nt7P61DLF2zsINL6y2DVeA%2BAsZykIh6SQYvQ8DFLSwBljG%2FO; yvJD_2132_nofavfid=1; j0AO_2132_widthauto=1; j0AO_2132_saltkey=jrb3tTeC; j0AO_2132_lastvisit=1519133195; j0AO_2132_smile=1D1; j0AO_2132_nofavfid=1; j0AO_2132_collapse=_category_1_; ECS[username]=lwa510; ECS[visit_times]=8; j0AO_2132_ulastactivity=423dVQqybUL4LYA8wMR%2BUlspqgFXpO1Ydqfrupl9NUO4dVCrT%2F6N; j0AO_2132_lastviewtime=1%7C1519272675; j0AO_2132_lastcheckfeed=1%7C1519272871; Huiskin=green; PHPSESSID=b9v9msosc81tli67k08tmpmn10; Hm_lvt_080836300300be57b7f34f4b3e97d911=1518324716,1519276402,1519357860; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1519357860',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/myo2o/public/index.php/bis/login/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\bis\controller\Register->index[ E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\application\bis\controller\Register.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\public/../application/bis\view\register\index.html [ array (
+  0 => 'citys',
+  1 => 'categorys',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-23T12:16:15+08:00 ] 127.0.0.1 127.0.0.1 GET /myo2o/public/index.php/bis/register/
+[ log ] localhost/myo2o/public/index.php/bis/register/ [运行时间：0.038002s][吞吐率：26.31req/s] [内存消耗：2,014.61kb] [文件加载：48]
+[ info ] [ LANG ] E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'register',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1896228864; yvJD_2132_saltkey=REoMi8Yd; yvJD_2132_lastvisit=1518876226; yvJD_2132_ulastactivity=1818nt7P61DLF2zsINL6y2DVeA%2BAsZykIh6SQYvQ8DFLSwBljG%2FO; yvJD_2132_nofavfid=1; j0AO_2132_widthauto=1; j0AO_2132_saltkey=jrb3tTeC; j0AO_2132_lastvisit=1519133195; j0AO_2132_smile=1D1; j0AO_2132_nofavfid=1; j0AO_2132_collapse=_category_1_; ECS[username]=lwa510; ECS[visit_times]=8; j0AO_2132_ulastactivity=423dVQqybUL4LYA8wMR%2BUlspqgFXpO1Ydqfrupl9NUO4dVCrT%2F6N; j0AO_2132_lastviewtime=1%7C1519272675; j0AO_2132_lastcheckfeed=1%7C1519272871; Huiskin=green; PHPSESSID=b9v9msosc81tli67k08tmpmn10; Hm_lvt_080836300300be57b7f34f4b3e97d911=1518324716,1519276402,1519357860; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1519357860',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/myo2o/public/index.php/bis/register/index.html',
+  'accept' => '*/*',
+  'x-requested-with' => 'ShockwaveFlash/28.0.0.161',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\bis\controller\Register->index[ E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\application\bis\controller\Register.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\public/../application/bis\view\register\index.html [ array (
+  0 => 'citys',
+  1 => 'categorys',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-23T12:16:15+08:00 ] 127.0.0.1 127.0.0.1 GET /myo2o/public/index.php/bis/register/
+[ log ] localhost/myo2o/public/index.php/bis/register/ [运行时间：0.029002s][吞吐率：34.48req/s] [内存消耗：2,014.61kb] [文件加载：48]
+[ info ] [ LANG ] E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'register',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1896228864; yvJD_2132_saltkey=REoMi8Yd; yvJD_2132_lastvisit=1518876226; yvJD_2132_ulastactivity=1818nt7P61DLF2zsINL6y2DVeA%2BAsZykIh6SQYvQ8DFLSwBljG%2FO; yvJD_2132_nofavfid=1; j0AO_2132_widthauto=1; j0AO_2132_saltkey=jrb3tTeC; j0AO_2132_lastvisit=1519133195; j0AO_2132_smile=1D1; j0AO_2132_nofavfid=1; j0AO_2132_collapse=_category_1_; ECS[username]=lwa510; ECS[visit_times]=8; j0AO_2132_ulastactivity=423dVQqybUL4LYA8wMR%2BUlspqgFXpO1Ydqfrupl9NUO4dVCrT%2F6N; j0AO_2132_lastviewtime=1%7C1519272675; j0AO_2132_lastcheckfeed=1%7C1519272871; Huiskin=green; PHPSESSID=b9v9msosc81tli67k08tmpmn10; Hm_lvt_080836300300be57b7f34f4b3e97d911=1518324716,1519276402,1519357860; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1519357860',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/myo2o/public/index.php/bis/register/index.html',
+  'accept' => '*/*',
+  'x-requested-with' => 'ShockwaveFlash/28.0.0.161',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\bis\controller\Register->index[ E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\application\bis\controller\Register.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\public/../application/bis\view\register\index.html [ array (
+  0 => 'citys',
+  1 => 'categorys',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-23T12:22:12+08:00 ] 127.0.0.1 127.0.0.1 GET /myo2o/public/index.php/bis/register/index.html
+[ log ] localhost/myo2o/public/index.php/bis/register/index.html [运行时间：0.056003s][吞吐率：17.86req/s] [内存消耗：2,015.12kb] [文件加载：48]
+[ info ] [ LANG ] E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'register',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1896228864; yvJD_2132_saltkey=REoMi8Yd; yvJD_2132_lastvisit=1518876226; yvJD_2132_ulastactivity=1818nt7P61DLF2zsINL6y2DVeA%2BAsZykIh6SQYvQ8DFLSwBljG%2FO; yvJD_2132_nofavfid=1; j0AO_2132_widthauto=1; j0AO_2132_saltkey=jrb3tTeC; j0AO_2132_lastvisit=1519133195; j0AO_2132_smile=1D1; j0AO_2132_nofavfid=1; j0AO_2132_collapse=_category_1_; ECS[username]=lwa510; ECS[visit_times]=8; j0AO_2132_ulastactivity=423dVQqybUL4LYA8wMR%2BUlspqgFXpO1Ydqfrupl9NUO4dVCrT%2F6N; j0AO_2132_lastviewtime=1%7C1519272675; j0AO_2132_lastcheckfeed=1%7C1519272871; Huiskin=green; PHPSESSID=b9v9msosc81tli67k08tmpmn10; Hm_lvt_080836300300be57b7f34f4b3e97d911=1518324716,1519276402,1519357860; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1519357860',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/myo2o/public/index.php/bis/login/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\bis\controller\Register->index[ E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\application\bis\controller\Register.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\public/../application/bis\view\register\index.html [ array (
+  0 => 'citys',
+  1 => 'categorys',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-23T12:22:12+08:00 ] 127.0.0.1 127.0.0.1 GET /myo2o/public/index.php/bis/register/
+[ log ] localhost/myo2o/public/index.php/bis/register/ [运行时间：0.052003s][吞吐率：19.23req/s] [内存消耗：2,014.61kb] [文件加载：48]
+[ info ] [ LANG ] E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'register',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1896228864; yvJD_2132_saltkey=REoMi8Yd; yvJD_2132_lastvisit=1518876226; yvJD_2132_ulastactivity=1818nt7P61DLF2zsINL6y2DVeA%2BAsZykIh6SQYvQ8DFLSwBljG%2FO; yvJD_2132_nofavfid=1; j0AO_2132_widthauto=1; j0AO_2132_saltkey=jrb3tTeC; j0AO_2132_lastvisit=1519133195; j0AO_2132_smile=1D1; j0AO_2132_nofavfid=1; j0AO_2132_collapse=_category_1_; ECS[username]=lwa510; ECS[visit_times]=8; j0AO_2132_ulastactivity=423dVQqybUL4LYA8wMR%2BUlspqgFXpO1Ydqfrupl9NUO4dVCrT%2F6N; j0AO_2132_lastviewtime=1%7C1519272675; j0AO_2132_lastcheckfeed=1%7C1519272871; Huiskin=green; PHPSESSID=b9v9msosc81tli67k08tmpmn10; Hm_lvt_080836300300be57b7f34f4b3e97d911=1518324716,1519276402,1519357860; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1519357860',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/myo2o/public/index.php/bis/register/index.html',
+  'accept' => '*/*',
+  'x-requested-with' => 'ShockwaveFlash/28.0.0.161',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\bis\controller\Register->index[ E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\application\bis\controller\Register.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\public/../application/bis\view\register\index.html [ array (
+  0 => 'citys',
+  1 => 'categorys',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-23T12:22:12+08:00 ] 127.0.0.1 127.0.0.1 GET /myo2o/public/index.php/bis/register/
+[ log ] localhost/myo2o/public/index.php/bis/register/ [运行时间：0.033001s][吞吐率：30.30req/s] [内存消耗：2,014.61kb] [文件加载：48]
+[ info ] [ LANG ] E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'register',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1896228864; yvJD_2132_saltkey=REoMi8Yd; yvJD_2132_lastvisit=1518876226; yvJD_2132_ulastactivity=1818nt7P61DLF2zsINL6y2DVeA%2BAsZykIh6SQYvQ8DFLSwBljG%2FO; yvJD_2132_nofavfid=1; j0AO_2132_widthauto=1; j0AO_2132_saltkey=jrb3tTeC; j0AO_2132_lastvisit=1519133195; j0AO_2132_smile=1D1; j0AO_2132_nofavfid=1; j0AO_2132_collapse=_category_1_; ECS[username]=lwa510; ECS[visit_times]=8; j0AO_2132_ulastactivity=423dVQqybUL4LYA8wMR%2BUlspqgFXpO1Ydqfrupl9NUO4dVCrT%2F6N; j0AO_2132_lastviewtime=1%7C1519272675; j0AO_2132_lastcheckfeed=1%7C1519272871; Huiskin=green; PHPSESSID=b9v9msosc81tli67k08tmpmn10; Hm_lvt_080836300300be57b7f34f4b3e97d911=1518324716,1519276402,1519357860; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1519357860',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/myo2o/public/index.php/bis/register/index.html',
+  'accept' => '*/*',
+  'x-requested-with' => 'ShockwaveFlash/28.0.0.161',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\bis\controller\Register->index[ E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\application\bis\controller\Register.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\public/../application/bis\view\register\index.html [ array (
+  0 => 'citys',
+  1 => 'categorys',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-23T12:22:22+08:00 ] 127.0.0.1 127.0.0.1 POST /myo2o/public/index.php/api/image/upload.html
+[ log ] localhost/myo2o/public/index.php/api/image/upload.html [运行时间：0.022002s][吞吐率：45.45req/s] [内存消耗：1,163.75kb] [文件加载：38]
+[ info ] [ LANG ] E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'image',
+    2 => 'upload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1896228864; yvJD_2132_saltkey=REoMi8Yd; yvJD_2132_lastvisit=1518876226; yvJD_2132_ulastactivity=1818nt7P61DLF2zsINL6y2DVeA%2BAsZykIh6SQYvQ8DFLSwBljG%2FO; yvJD_2132_nofavfid=1; j0AO_2132_widthauto=1; j0AO_2132_saltkey=jrb3tTeC; j0AO_2132_lastvisit=1519133195; j0AO_2132_smile=1D1; j0AO_2132_nofavfid=1; j0AO_2132_collapse=_category_1_; ECS[username]=lwa510; ECS[visit_times]=8; j0AO_2132_ulastactivity=423dVQqybUL4LYA8wMR%2BUlspqgFXpO1Ydqfrupl9NUO4dVCrT%2F6N; j0AO_2132_lastviewtime=1%7C1519272675; j0AO_2132_lastcheckfeed=1%7C1519272871; Huiskin=green; PHPSESSID=b9v9msosc81tli67k08tmpmn10; Hm_lvt_080836300300be57b7f34f4b3e97d911=1518324716,1519276402,1519357860; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1519357860',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/myo2o/public/index.php/bis/register/index.html',
+  'accept' => '*/*',
+  'content-type' => 'multipart/form-data; boundary=----------gL6GI3gL6ei4ei4GI3gL6GI3Ij5Ij5',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36',
+  'x-requested-with' => 'ShockwaveFlash/28.0.0.161',
+  'origin' => 'http://localhost',
+  'content-length' => '14460',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'Filename' => '1.jpg',
+  'Upload' => 'Submit Query',
+)
+[ info ] [ RUN ] app\api\controller\Image->upload[ E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\application\api\controller\Image.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-23T12:24:25+08:00 ] 127.0.0.1 127.0.0.1 GET /myo2o/public/index.php/bis/register/index.html
+[ log ] localhost/myo2o/public/index.php/bis/register/index.html [运行时间：0.049002s][吞吐率：20.41req/s] [内存消耗：2,015.12kb] [文件加载：48]
+[ info ] [ LANG ] E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'register',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1896228864; yvJD_2132_saltkey=REoMi8Yd; yvJD_2132_lastvisit=1518876226; yvJD_2132_ulastactivity=1818nt7P61DLF2zsINL6y2DVeA%2BAsZykIh6SQYvQ8DFLSwBljG%2FO; yvJD_2132_nofavfid=1; j0AO_2132_widthauto=1; j0AO_2132_saltkey=jrb3tTeC; j0AO_2132_lastvisit=1519133195; j0AO_2132_smile=1D1; j0AO_2132_nofavfid=1; j0AO_2132_collapse=_category_1_; ECS[username]=lwa510; ECS[visit_times]=8; j0AO_2132_ulastactivity=423dVQqybUL4LYA8wMR%2BUlspqgFXpO1Ydqfrupl9NUO4dVCrT%2F6N; j0AO_2132_lastviewtime=1%7C1519272675; j0AO_2132_lastcheckfeed=1%7C1519272871; Huiskin=green; PHPSESSID=b9v9msosc81tli67k08tmpmn10; Hm_lvt_080836300300be57b7f34f4b3e97d911=1518324716,1519276402,1519357860; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1519357860',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/myo2o/public/index.php/bis/login/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\bis\controller\Register->index[ E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\application\bis\controller\Register.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\public/../application/bis\view\register\index.html [ array (
+  0 => 'citys',
+  1 => 'categorys',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-23T12:24:26+08:00 ] 127.0.0.1 127.0.0.1 GET /myo2o/public/index.php/bis/register/
+[ log ] localhost/myo2o/public/index.php/bis/register/ [运行时间：0.046003s][吞吐率：21.74req/s] [内存消耗：2,014.61kb] [文件加载：48]
+[ info ] [ LANG ] E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'register',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1896228864; yvJD_2132_saltkey=REoMi8Yd; yvJD_2132_lastvisit=1518876226; yvJD_2132_ulastactivity=1818nt7P61DLF2zsINL6y2DVeA%2BAsZykIh6SQYvQ8DFLSwBljG%2FO; yvJD_2132_nofavfid=1; j0AO_2132_widthauto=1; j0AO_2132_saltkey=jrb3tTeC; j0AO_2132_lastvisit=1519133195; j0AO_2132_smile=1D1; j0AO_2132_nofavfid=1; j0AO_2132_collapse=_category_1_; ECS[username]=lwa510; ECS[visit_times]=8; j0AO_2132_ulastactivity=423dVQqybUL4LYA8wMR%2BUlspqgFXpO1Ydqfrupl9NUO4dVCrT%2F6N; j0AO_2132_lastviewtime=1%7C1519272675; j0AO_2132_lastcheckfeed=1%7C1519272871; Huiskin=green; PHPSESSID=b9v9msosc81tli67k08tmpmn10; Hm_lvt_080836300300be57b7f34f4b3e97d911=1518324716,1519276402,1519357860; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1519357860',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/myo2o/public/index.php/bis/register/index.html',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36',
+  'x-requested-with' => 'ShockwaveFlash/28.0.0.161',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\bis\controller\Register->index[ E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\application\bis\controller\Register.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\public/../application/bis\view\register\index.html [ array (
+  0 => 'citys',
+  1 => 'categorys',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-23T12:24:26+08:00 ] 127.0.0.1 127.0.0.1 GET /myo2o/public/index.php/bis/register/
+[ log ] localhost/myo2o/public/index.php/bis/register/ [运行时间：0.039002s][吞吐率：25.64req/s] [内存消耗：2,014.61kb] [文件加载：48]
+[ info ] [ LANG ] E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'register',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1896228864; yvJD_2132_saltkey=REoMi8Yd; yvJD_2132_lastvisit=1518876226; yvJD_2132_ulastactivity=1818nt7P61DLF2zsINL6y2DVeA%2BAsZykIh6SQYvQ8DFLSwBljG%2FO; yvJD_2132_nofavfid=1; j0AO_2132_widthauto=1; j0AO_2132_saltkey=jrb3tTeC; j0AO_2132_lastvisit=1519133195; j0AO_2132_smile=1D1; j0AO_2132_nofavfid=1; j0AO_2132_collapse=_category_1_; ECS[username]=lwa510; ECS[visit_times]=8; j0AO_2132_ulastactivity=423dVQqybUL4LYA8wMR%2BUlspqgFXpO1Ydqfrupl9NUO4dVCrT%2F6N; j0AO_2132_lastviewtime=1%7C1519272675; j0AO_2132_lastcheckfeed=1%7C1519272871; Huiskin=green; PHPSESSID=b9v9msosc81tli67k08tmpmn10; Hm_lvt_080836300300be57b7f34f4b3e97d911=1518324716,1519276402,1519357860; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1519357860',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/myo2o/public/index.php/bis/register/index.html',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36',
+  'x-requested-with' => 'ShockwaveFlash/28.0.0.161',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\bis\controller\Register->index[ E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\application\bis\controller\Register.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\public/../application/bis\view\register\index.html [ array (
+  0 => 'citys',
+  1 => 'categorys',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-23T12:24:31+08:00 ] 127.0.0.1 127.0.0.1 POST /myo2o/public/index.php/api/image/upload.html
+[ log ] localhost/myo2o/public/index.php/api/image/upload.html [运行时间：0.025002s][吞吐率：40.00req/s] [内存消耗：1,163.73kb] [文件加载：38]
+[ info ] [ LANG ] E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'image',
+    2 => 'upload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1896228864; yvJD_2132_saltkey=REoMi8Yd; yvJD_2132_lastvisit=1518876226; yvJD_2132_ulastactivity=1818nt7P61DLF2zsINL6y2DVeA%2BAsZykIh6SQYvQ8DFLSwBljG%2FO; yvJD_2132_nofavfid=1; j0AO_2132_widthauto=1; j0AO_2132_saltkey=jrb3tTeC; j0AO_2132_lastvisit=1519133195; j0AO_2132_smile=1D1; j0AO_2132_nofavfid=1; j0AO_2132_collapse=_category_1_; ECS[username]=lwa510; ECS[visit_times]=8; j0AO_2132_ulastactivity=423dVQqybUL4LYA8wMR%2BUlspqgFXpO1Ydqfrupl9NUO4dVCrT%2F6N; j0AO_2132_lastviewtime=1%7C1519272675; j0AO_2132_lastcheckfeed=1%7C1519272871; Huiskin=green; PHPSESSID=b9v9msosc81tli67k08tmpmn10; Hm_lvt_080836300300be57b7f34f4b3e97d911=1518324716,1519276402,1519357860; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1519357860',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/myo2o/public/index.php/bis/register/index.html',
+  'accept' => '*/*',
+  'content-type' => 'multipart/form-data; boundary=----------GI3cH2cH2Ij5ae0ei4ae0KM7GI3gL6',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36',
+  'x-requested-with' => 'ShockwaveFlash/28.0.0.161',
+  'origin' => 'http://localhost',
+  'content-length' => '14460',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'Filename' => '1.jpg',
+  'Upload' => 'Submit Query',
+)
+[ info ] [ RUN ] app\api\controller\Image->upload[ E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\application\api\controller\Image.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-23T12:24:46+08:00 ] 127.0.0.1 127.0.0.1 POST /myo2o/public/index.php/api/image/upload.html
+[ log ] localhost/myo2o/public/index.php/api/image/upload.html [运行时间：0.019001s][吞吐率：52.63req/s] [内存消耗：1,163.73kb] [文件加载：38]
+[ info ] [ LANG ] E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'image',
+    2 => 'upload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1896228864; yvJD_2132_saltkey=REoMi8Yd; yvJD_2132_lastvisit=1518876226; yvJD_2132_ulastactivity=1818nt7P61DLF2zsINL6y2DVeA%2BAsZykIh6SQYvQ8DFLSwBljG%2FO; yvJD_2132_nofavfid=1; j0AO_2132_widthauto=1; j0AO_2132_saltkey=jrb3tTeC; j0AO_2132_lastvisit=1519133195; j0AO_2132_smile=1D1; j0AO_2132_nofavfid=1; j0AO_2132_collapse=_category_1_; ECS[username]=lwa510; ECS[visit_times]=8; j0AO_2132_ulastactivity=423dVQqybUL4LYA8wMR%2BUlspqgFXpO1Ydqfrupl9NUO4dVCrT%2F6N; j0AO_2132_lastviewtime=1%7C1519272675; j0AO_2132_lastcheckfeed=1%7C1519272871; Huiskin=green; PHPSESSID=b9v9msosc81tli67k08tmpmn10; Hm_lvt_080836300300be57b7f34f4b3e97d911=1518324716,1519276402,1519357860; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1519357860',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/myo2o/public/index.php/bis/register/index.html',
+  'accept' => '*/*',
+  'content-type' => 'multipart/form-data; boundary=----------Ij5Ef1Ij5cH2gL6ei4cH2Ij5ae0Ij5',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36',
+  'x-requested-with' => 'ShockwaveFlash/28.0.0.161',
+  'origin' => 'http://localhost',
+  'content-length' => '781243',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'Filename' => 'Koala.jpg',
+  'Upload' => 'Submit Query',
+)
+[ info ] [ RUN ] app\api\controller\Image->upload[ E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\application\api\controller\Image.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-23T12:24:54+08:00 ] 127.0.0.1 127.0.0.1 POST /myo2o/public/index.php/api/city/getcitysbyparentid.html
+[ log ] localhost/myo2o/public/index.php/api/city/getcitysbyparentid.html [运行时间：0.052003s][吞吐率：19.23req/s] [内存消耗：1,913.80kb] [文件加载：46]
+[ info ] [ LANG ] E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'city',
+    2 => 'getcitysbyparentid',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1896228864; yvJD_2132_saltkey=REoMi8Yd; yvJD_2132_lastvisit=1518876226; yvJD_2132_ulastactivity=1818nt7P61DLF2zsINL6y2DVeA%2BAsZykIh6SQYvQ8DFLSwBljG%2FO; yvJD_2132_nofavfid=1; j0AO_2132_widthauto=1; j0AO_2132_saltkey=jrb3tTeC; j0AO_2132_lastvisit=1519133195; j0AO_2132_smile=1D1; j0AO_2132_nofavfid=1; j0AO_2132_collapse=_category_1_; ECS[username]=lwa510; ECS[visit_times]=8; j0AO_2132_ulastactivity=423dVQqybUL4LYA8wMR%2BUlspqgFXpO1Ydqfrupl9NUO4dVCrT%2F6N; j0AO_2132_lastviewtime=1%7C1519272675; j0AO_2132_lastcheckfeed=1%7C1519272871; Huiskin=green; PHPSESSID=b9v9msosc81tli67k08tmpmn10; Hm_lvt_080836300300be57b7f34f4b3e97d911=1518324716,1519276402,1519357860; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1519357860',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/myo2o/public/index.php/bis/register/index.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://localhost',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '4',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+)
+[ info ] [ RUN ] app\api\controller\City->getCitysByParentId[ E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\application\api\controller\City.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-23T12:26:12+08:00 ] 127.0.0.1 127.0.0.1 POST /myo2o/public/index.php/api/category/getcategorybyparentid.html
+[ log ] localhost/myo2o/public/index.php/api/category/getcategorybyparentid.html [运行时间：0.077603s][吞吐率：12.89req/s] [内存消耗：1,920.55kb] [文件加载：46]
+[ info ] [ LANG ] E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'category',
+    2 => 'getcategorybyparentid',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1896228864; yvJD_2132_saltkey=REoMi8Yd; yvJD_2132_lastvisit=1518876226; yvJD_2132_ulastactivity=1818nt7P61DLF2zsINL6y2DVeA%2BAsZykIh6SQYvQ8DFLSwBljG%2FO; yvJD_2132_nofavfid=1; j0AO_2132_widthauto=1; j0AO_2132_saltkey=jrb3tTeC; j0AO_2132_lastvisit=1519133195; j0AO_2132_smile=1D1; j0AO_2132_nofavfid=1; j0AO_2132_collapse=_category_1_; ECS[username]=lwa510; ECS[visit_times]=8; j0AO_2132_ulastactivity=423dVQqybUL4LYA8wMR%2BUlspqgFXpO1Ydqfrupl9NUO4dVCrT%2F6N; j0AO_2132_lastviewtime=1%7C1519272675; j0AO_2132_lastcheckfeed=1%7C1519272871; Huiskin=green; PHPSESSID=b9v9msosc81tli67k08tmpmn10; Hm_lvt_080836300300be57b7f34f4b3e97d911=1518324716,1519276402,1519357860; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1519357860',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/myo2o/public/index.php/bis/register/index.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://localhost',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '4',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'id' => '3',
+)
+[ info ] [ RUN ] app\api\controller\Category->getCategoryByParentId[ E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\application\api\controller\Category.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-23T12:27:08+08:00 ] 127.0.0.1 127.0.0.1 POST /myo2o/public/index.php/bis/register/add.html
+[ log ] localhost/myo2o/public/index.php/bis/register/add.html [运行时间：0.181010s][吞吐率：5.52req/s] [内存消耗：1,305.73kb] [文件加载：41]
+[ info ] [ LANG ] E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'register',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1896228864; yvJD_2132_saltkey=REoMi8Yd; yvJD_2132_lastvisit=1518876226; yvJD_2132_ulastactivity=1818nt7P61DLF2zsINL6y2DVeA%2BAsZykIh6SQYvQ8DFLSwBljG%2FO; yvJD_2132_nofavfid=1; j0AO_2132_widthauto=1; j0AO_2132_saltkey=jrb3tTeC; j0AO_2132_lastvisit=1519133195; j0AO_2132_smile=1D1; j0AO_2132_nofavfid=1; j0AO_2132_collapse=_category_1_; ECS[username]=lwa510; ECS[visit_times]=8; j0AO_2132_ulastactivity=423dVQqybUL4LYA8wMR%2BUlspqgFXpO1Ydqfrupl9NUO4dVCrT%2F6N; j0AO_2132_lastviewtime=1%7C1519272675; j0AO_2132_lastcheckfeed=1%7C1519272871; Huiskin=green; PHPSESSID=b9v9msosc81tli67k08tmpmn10; Hm_lvt_080836300300be57b7f34f4b3e97d911=1518324716,1519276402,1519357860; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1519357860',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/myo2o/public/index.php/bis/register/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://localhost',
+  'cache-control' => 'max-age=0',
+  'content-length' => '730',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'name' => '烤肉串',
+  'city_id' => '2',
+  'se_city_id' => '6',
+  'logo' => '/myo2o/public/upload\\20180223\\b50800069c7803335c8906ef5aa89d46.jpg',
+  'licence_logo' => '/myo2o/public/upload\\20180223\\6c82d912fa0d40c11490166a3a32d115.jpg',
+  'bank_info' => '65584816415646345646',
+  'bank_name' => '中国财政银行',
+  'bank_user' => '牛xx',
+  'faren' => '牛xx',
+  'faren_tel' => '15927375485',
+  'email' => '392771991@qq.com',
+  'tel' => '12345648948',
+  'contact' => '15489489489',
+  'category_id' => '3',
+  'se_category_id' => 
+  array (
+    0 => '7',
+  ),
+  'address' => '房县大裤衩子路',
+  'open_time' => '8:00-20:00',
+  'username' => 'kaoroudian',
+  'password' => 'LWA3715235',
+  'description' => '<p>贼好吃</p>',
+  'content' => '<p>贼好吃</p>',
+)
+[ info ] [ RUN ] app\bis\controller\Register->add[ E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\application\bis\controller\Register.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-23T12:28:29+08:00 ] 127.0.0.1 127.0.0.1 GET /myo2o/public/index.php/bis/register/
+[ log ] localhost/myo2o/public/index.php/bis/register/ [运行时间：0.043002s][吞吐率：23.25req/s] [内存消耗：2,014.61kb] [文件加载：48]
+[ info ] [ LANG ] E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'register',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1896228864; yvJD_2132_saltkey=REoMi8Yd; yvJD_2132_lastvisit=1518876226; yvJD_2132_ulastactivity=1818nt7P61DLF2zsINL6y2DVeA%2BAsZykIh6SQYvQ8DFLSwBljG%2FO; yvJD_2132_nofavfid=1; j0AO_2132_widthauto=1; j0AO_2132_saltkey=jrb3tTeC; j0AO_2132_lastvisit=1519133195; j0AO_2132_smile=1D1; j0AO_2132_nofavfid=1; j0AO_2132_collapse=_category_1_; ECS[username]=lwa510; ECS[visit_times]=8; j0AO_2132_ulastactivity=423dVQqybUL4LYA8wMR%2BUlspqgFXpO1Ydqfrupl9NUO4dVCrT%2F6N; j0AO_2132_lastviewtime=1%7C1519272675; j0AO_2132_lastcheckfeed=1%7C1519272871; Huiskin=green; PHPSESSID=b9v9msosc81tli67k08tmpmn10; Hm_lvt_080836300300be57b7f34f4b3e97d911=1518324716,1519276402,1519357860; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1519357860',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/myo2o/public/index.php/bis/register/index.html',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36',
+  'x-requested-with' => 'ShockwaveFlash/28.0.0.161',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\bis\controller\Register->index[ E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\application\bis\controller\Register.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\public/../application/bis\view\register\index.html [ array (
+  0 => 'citys',
+  1 => 'categorys',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-23T12:28:29+08:00 ] 127.0.0.1 127.0.0.1 GET /myo2o/public/index.php/bis/register/
+[ log ] localhost/myo2o/public/index.php/bis/register/ [运行时间：0.038003s][吞吐率：26.31req/s] [内存消耗：2,014.61kb] [文件加载：48]
+[ info ] [ LANG ] E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'register',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1896228864; yvJD_2132_saltkey=REoMi8Yd; yvJD_2132_lastvisit=1518876226; yvJD_2132_ulastactivity=1818nt7P61DLF2zsINL6y2DVeA%2BAsZykIh6SQYvQ8DFLSwBljG%2FO; yvJD_2132_nofavfid=1; j0AO_2132_widthauto=1; j0AO_2132_saltkey=jrb3tTeC; j0AO_2132_lastvisit=1519133195; j0AO_2132_smile=1D1; j0AO_2132_nofavfid=1; j0AO_2132_collapse=_category_1_; ECS[username]=lwa510; ECS[visit_times]=8; j0AO_2132_ulastactivity=423dVQqybUL4LYA8wMR%2BUlspqgFXpO1Ydqfrupl9NUO4dVCrT%2F6N; j0AO_2132_lastviewtime=1%7C1519272675; j0AO_2132_lastcheckfeed=1%7C1519272871; Huiskin=green; PHPSESSID=b9v9msosc81tli67k08tmpmn10; Hm_lvt_080836300300be57b7f34f4b3e97d911=1518324716,1519276402,1519357860; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1519357860',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/myo2o/public/index.php/bis/register/index.html',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36',
+  'x-requested-with' => 'ShockwaveFlash/28.0.0.161',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\bis\controller\Register->index[ E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\application\bis\controller\Register.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\public/../application/bis\view\register\index.html [ array (
+  0 => 'citys',
+  1 => 'categorys',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-23T18:21:37+08:00 ] 127.0.0.1 127.0.0.1 GET /myo2o/public/index.php/admin/index/index.html
+[ log ] localhost/myo2o/public/index.php/admin/index/index.html [运行时间：0.023001s][吞吐率：43.48req/s] [内存消耗：1,183.06kb] [文件加载：38]
+[ info ] [ LANG ] E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1896228864; yvJD_2132_saltkey=REoMi8Yd; yvJD_2132_lastvisit=1518876226; yvJD_2132_ulastactivity=1818nt7P61DLF2zsINL6y2DVeA%2BAsZykIh6SQYvQ8DFLSwBljG%2FO; yvJD_2132_nofavfid=1; j0AO_2132_widthauto=1; j0AO_2132_saltkey=jrb3tTeC; j0AO_2132_lastvisit=1519133195; j0AO_2132_smile=1D1; j0AO_2132_nofavfid=1; j0AO_2132_collapse=_category_1_; ECS[username]=lwa510; ECS[visit_times]=8; j0AO_2132_ulastactivity=423dVQqybUL4LYA8wMR%2BUlspqgFXpO1Ydqfrupl9NUO4dVCrT%2F6N; j0AO_2132_lastviewtime=1%7C1519272675; j0AO_2132_lastcheckfeed=1%7C1519272871; Huiskin=green; PHPSESSID=b9v9msosc81tli67k08tmpmn10; Hm_lvt_080836300300be57b7f34f4b3e97d911=1518324716,1519276402,1519357860; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1519357860',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\public/../application/admin\view\index\index.html [ array (
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-23T18:21:37+08:00 ] 127.0.0.1 127.0.0.1 GET /myo2o/public/index.php/admin/index/welcome.html
+[ log ] localhost/myo2o/public/index.php/admin/index/welcome.html [运行时间：0.023001s][吞吐率：43.48req/s] [内存消耗：1,130.31kb] [文件加载：37]
+[ info ] [ LANG ] E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'welcome',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1896228864; yvJD_2132_saltkey=REoMi8Yd; yvJD_2132_lastvisit=1518876226; yvJD_2132_ulastactivity=1818nt7P61DLF2zsINL6y2DVeA%2BAsZykIh6SQYvQ8DFLSwBljG%2FO; yvJD_2132_nofavfid=1; j0AO_2132_widthauto=1; j0AO_2132_saltkey=jrb3tTeC; j0AO_2132_lastvisit=1519133195; j0AO_2132_smile=1D1; j0AO_2132_nofavfid=1; j0AO_2132_collapse=_category_1_; ECS[username]=lwa510; ECS[visit_times]=8; j0AO_2132_ulastactivity=423dVQqybUL4LYA8wMR%2BUlspqgFXpO1Ydqfrupl9NUO4dVCrT%2F6N; j0AO_2132_lastviewtime=1%7C1519272675; j0AO_2132_lastcheckfeed=1%7C1519272871; Huiskin=green; PHPSESSID=b9v9msosc81tli67k08tmpmn10; Hm_lvt_080836300300be57b7f34f4b3e97d911=1518324716,1519276402,1519357860; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1519357860',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/myo2o/public/index.php/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->welcome[ E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\public/../application/admin\view\index\welcome.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-23T18:25:26+08:00 ] 127.0.0.1 127.0.0.1 GET /myo2o/public/index.php/admin/city/index.html
+[ log ] localhost/myo2o/public/index.php/admin/city/index.html [运行时间：0.061004s][吞吐率：16.39req/s] [内存消耗：1,981.53kb] [文件加载：48]
+[ info ] [ LANG ] E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'city',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1896228864; yvJD_2132_saltkey=REoMi8Yd; yvJD_2132_lastvisit=1518876226; yvJD_2132_ulastactivity=1818nt7P61DLF2zsINL6y2DVeA%2BAsZykIh6SQYvQ8DFLSwBljG%2FO; yvJD_2132_nofavfid=1; j0AO_2132_widthauto=1; j0AO_2132_saltkey=jrb3tTeC; j0AO_2132_lastvisit=1519133195; j0AO_2132_smile=1D1; j0AO_2132_nofavfid=1; j0AO_2132_collapse=_category_1_; ECS[username]=lwa510; ECS[visit_times]=8; j0AO_2132_ulastactivity=423dVQqybUL4LYA8wMR%2BUlspqgFXpO1Ydqfrupl9NUO4dVCrT%2F6N; j0AO_2132_lastviewtime=1%7C1519272675; j0AO_2132_lastcheckfeed=1%7C1519272871; Huiskin=green; PHPSESSID=b9v9msosc81tli67k08tmpmn10; Hm_lvt_080836300300be57b7f34f4b3e97d911=1518324716,1519276402,1519357860; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1519381298',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/myo2o/public/index.php/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\City->index[ E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\application\admin\controller\City.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\public/../application/admin\view\city\index.html [ array (
+  0 => 'parentId',
+  1 => 'normalCity',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-23T18:25:30+08:00 ] 127.0.0.1 127.0.0.1 GET /myo2o/public/index.php/admin/city/add.html
+[ log ] localhost/myo2o/public/index.php/admin/city/add.html [运行时间：0.057004s][吞吐率：17.54req/s] [内存消耗：1,980.47kb] [文件加载：48]
+[ info ] [ LANG ] E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'city',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1896228864; yvJD_2132_saltkey=REoMi8Yd; yvJD_2132_lastvisit=1518876226; yvJD_2132_ulastactivity=1818nt7P61DLF2zsINL6y2DVeA%2BAsZykIh6SQYvQ8DFLSwBljG%2FO; yvJD_2132_nofavfid=1; j0AO_2132_widthauto=1; j0AO_2132_saltkey=jrb3tTeC; j0AO_2132_lastvisit=1519133195; j0AO_2132_smile=1D1; j0AO_2132_nofavfid=1; j0AO_2132_collapse=_category_1_; ECS[username]=lwa510; ECS[visit_times]=8; j0AO_2132_ulastactivity=423dVQqybUL4LYA8wMR%2BUlspqgFXpO1Ydqfrupl9NUO4dVCrT%2F6N; j0AO_2132_lastviewtime=1%7C1519272675; j0AO_2132_lastcheckfeed=1%7C1519272871; Huiskin=green; PHPSESSID=b9v9msosc81tli67k08tmpmn10; Hm_lvt_080836300300be57b7f34f4b3e97d911=1518324716,1519276402,1519357860; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1519381298',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/myo2o/public/index.php/admin/city/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\City->add[ E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\application\admin\controller\City.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\public/../application/admin\view\city\add.html [ array (
+  0 => 'normalCity',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-23T18:25:41+08:00 ] 127.0.0.1 127.0.0.1 POST /myo2o/public/index.php/admin/city/save.html
+[ log ] localhost/myo2o/public/index.php/admin/city/save.html [运行时间：0.228013s][吞吐率：4.39req/s] [内存消耗：2,018.77kb] [文件加载：50]
+[ info ] [ LANG ] E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'city',
+    2 => 'save',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1896228864; yvJD_2132_saltkey=REoMi8Yd; yvJD_2132_lastvisit=1518876226; yvJD_2132_ulastactivity=1818nt7P61DLF2zsINL6y2DVeA%2BAsZykIh6SQYvQ8DFLSwBljG%2FO; yvJD_2132_nofavfid=1; j0AO_2132_widthauto=1; j0AO_2132_saltkey=jrb3tTeC; j0AO_2132_lastvisit=1519133195; j0AO_2132_smile=1D1; j0AO_2132_nofavfid=1; j0AO_2132_collapse=_category_1_; ECS[username]=lwa510; ECS[visit_times]=8; j0AO_2132_ulastactivity=423dVQqybUL4LYA8wMR%2BUlspqgFXpO1Ydqfrupl9NUO4dVCrT%2F6N; j0AO_2132_lastviewtime=1%7C1519272675; j0AO_2132_lastcheckfeed=1%7C1519272871; Huiskin=green; PHPSESSID=b9v9msosc81tli67k08tmpmn10; Hm_lvt_080836300300be57b7f34f4b3e97d911=1518324716,1519276402,1519357860; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1519381298',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/myo2o/public/index.php/admin/city/add.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://localhost',
+  'cache-control' => 'max-age=0',
+  'content-length' => '35',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'name' => '东营',
+  'parent_id' => '5',
+)
+[ info ] [ RUN ] app\admin\controller\City->save[ E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\application\admin\controller\City.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-23T18:25:44+08:00 ] 127.0.0.1 127.0.0.1 GET /myo2o/public/index.php/admin/city/add.html
+[ log ] localhost/myo2o/public/index.php/admin/city/add.html [运行时间：0.054003s][吞吐率：18.52req/s] [内存消耗：1,980.47kb] [文件加载：48]
+[ info ] [ LANG ] E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'city',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1896228864; yvJD_2132_saltkey=REoMi8Yd; yvJD_2132_lastvisit=1518876226; yvJD_2132_ulastactivity=1818nt7P61DLF2zsINL6y2DVeA%2BAsZykIh6SQYvQ8DFLSwBljG%2FO; yvJD_2132_nofavfid=1; j0AO_2132_widthauto=1; j0AO_2132_saltkey=jrb3tTeC; j0AO_2132_lastvisit=1519133195; j0AO_2132_smile=1D1; j0AO_2132_nofavfid=1; j0AO_2132_collapse=_category_1_; ECS[username]=lwa510; ECS[visit_times]=8; j0AO_2132_ulastactivity=423dVQqybUL4LYA8wMR%2BUlspqgFXpO1Ydqfrupl9NUO4dVCrT%2F6N; j0AO_2132_lastviewtime=1%7C1519272675; j0AO_2132_lastcheckfeed=1%7C1519272871; Huiskin=green; PHPSESSID=b9v9msosc81tli67k08tmpmn10; Hm_lvt_080836300300be57b7f34f4b3e97d911=1518324716,1519276402,1519357860; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1519381298',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/myo2o/public/index.php/admin/city/save.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\City->add[ E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\application\admin\controller\City.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\public/../application/admin\view\city\add.html [ array (
+  0 => 'normalCity',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-23T18:25:49+08:00 ] 127.0.0.1 127.0.0.1 GET /myo2o/public/index.php/admin/city/add.html
+[ log ] localhost/myo2o/public/index.php/admin/city/add.html [运行时间：0.060602s][吞吐率：16.50req/s] [内存消耗：1,980.47kb] [文件加载：48]
+[ info ] [ LANG ] E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'city',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1896228864; yvJD_2132_saltkey=REoMi8Yd; yvJD_2132_lastvisit=1518876226; yvJD_2132_ulastactivity=1818nt7P61DLF2zsINL6y2DVeA%2BAsZykIh6SQYvQ8DFLSwBljG%2FO; yvJD_2132_nofavfid=1; j0AO_2132_widthauto=1; j0AO_2132_saltkey=jrb3tTeC; j0AO_2132_lastvisit=1519133195; j0AO_2132_smile=1D1; j0AO_2132_nofavfid=1; j0AO_2132_collapse=_category_1_; ECS[username]=lwa510; ECS[visit_times]=8; j0AO_2132_ulastactivity=423dVQqybUL4LYA8wMR%2BUlspqgFXpO1Ydqfrupl9NUO4dVCrT%2F6N; j0AO_2132_lastviewtime=1%7C1519272675; j0AO_2132_lastcheckfeed=1%7C1519272871; Huiskin=green; PHPSESSID=b9v9msosc81tli67k08tmpmn10; Hm_lvt_080836300300be57b7f34f4b3e97d911=1518324716,1519276402,1519357860; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1519381298',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/myo2o/public/index.php/admin/city/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\City->add[ E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\application\admin\controller\City.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\public/../application/admin\view\city\add.html [ array (
+  0 => 'normalCity',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-23T18:25:58+08:00 ] 127.0.0.1 127.0.0.1 POST /myo2o/public/index.php/admin/city/save.html
+[ log ] localhost/myo2o/public/index.php/admin/city/save.html [运行时间：0.168010s][吞吐率：5.95req/s] [内存消耗：2,018.79kb] [文件加载：50]
+[ info ] [ LANG ] E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'city',
+    2 => 'save',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1896228864; yvJD_2132_saltkey=REoMi8Yd; yvJD_2132_lastvisit=1518876226; yvJD_2132_ulastactivity=1818nt7P61DLF2zsINL6y2DVeA%2BAsZykIh6SQYvQ8DFLSwBljG%2FO; yvJD_2132_nofavfid=1; j0AO_2132_widthauto=1; j0AO_2132_saltkey=jrb3tTeC; j0AO_2132_lastvisit=1519133195; j0AO_2132_smile=1D1; j0AO_2132_nofavfid=1; j0AO_2132_collapse=_category_1_; ECS[username]=lwa510; ECS[visit_times]=8; j0AO_2132_ulastactivity=423dVQqybUL4LYA8wMR%2BUlspqgFXpO1Ydqfrupl9NUO4dVCrT%2F6N; j0AO_2132_lastviewtime=1%7C1519272675; j0AO_2132_lastcheckfeed=1%7C1519272871; Huiskin=green; PHPSESSID=b9v9msosc81tli67k08tmpmn10; Hm_lvt_080836300300be57b7f34f4b3e97d911=1518324716,1519276402,1519357860; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1519381298',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/myo2o/public/index.php/admin/city/add.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://localhost',
+  'cache-control' => 'max-age=0',
+  'content-length' => '44',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'name' => '朝阳区',
+  'parent_id' => '1',
+)
+[ info ] [ RUN ] app\admin\controller\City->save[ E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\application\admin\controller\City.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-23T18:26:02+08:00 ] 127.0.0.1 127.0.0.1 GET /myo2o/public/index.php/admin/city/index.html
+[ log ] localhost/myo2o/public/index.php/admin/city/index.html [运行时间：0.057003s][吞吐率：17.54req/s] [内存消耗：1,981.53kb] [文件加载：48]
+[ info ] [ LANG ] E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'city',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1896228864; yvJD_2132_saltkey=REoMi8Yd; yvJD_2132_lastvisit=1518876226; yvJD_2132_ulastactivity=1818nt7P61DLF2zsINL6y2DVeA%2BAsZykIh6SQYvQ8DFLSwBljG%2FO; yvJD_2132_nofavfid=1; j0AO_2132_widthauto=1; j0AO_2132_saltkey=jrb3tTeC; j0AO_2132_lastvisit=1519133195; j0AO_2132_smile=1D1; j0AO_2132_nofavfid=1; j0AO_2132_collapse=_category_1_; ECS[username]=lwa510; ECS[visit_times]=8; j0AO_2132_ulastactivity=423dVQqybUL4LYA8wMR%2BUlspqgFXpO1Ydqfrupl9NUO4dVCrT%2F6N; j0AO_2132_lastviewtime=1%7C1519272675; j0AO_2132_lastcheckfeed=1%7C1519272871; Huiskin=green; PHPSESSID=b9v9msosc81tli67k08tmpmn10; Hm_lvt_080836300300be57b7f34f4b3e97d911=1518324716,1519276402,1519357860; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1519381298',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/myo2o/public/index.php/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\City->index[ E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\application\admin\controller\City.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\public/../application/admin\view\city\index.html [ array (
+  0 => 'parentId',
+  1 => 'normalCity',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-23T18:26:03+08:00 ] 127.0.0.1 127.0.0.1 GET /myo2o/public/index.php/admin/city/index.html?parent_id=5
+[ log ] localhost/myo2o/public/index.php/admin/city/index.html?parent_id=5 [运行时间：0.068004s][吞吐率：14.71req/s] [内存消耗：1,979.72kb] [文件加载：48]
+[ info ] [ LANG ] E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'city',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1896228864; yvJD_2132_saltkey=REoMi8Yd; yvJD_2132_lastvisit=1518876226; yvJD_2132_ulastactivity=1818nt7P61DLF2zsINL6y2DVeA%2BAsZykIh6SQYvQ8DFLSwBljG%2FO; yvJD_2132_nofavfid=1; j0AO_2132_widthauto=1; j0AO_2132_saltkey=jrb3tTeC; j0AO_2132_lastvisit=1519133195; j0AO_2132_smile=1D1; j0AO_2132_nofavfid=1; j0AO_2132_collapse=_category_1_; ECS[username]=lwa510; ECS[visit_times]=8; j0AO_2132_ulastactivity=423dVQqybUL4LYA8wMR%2BUlspqgFXpO1Ydqfrupl9NUO4dVCrT%2F6N; j0AO_2132_lastviewtime=1%7C1519272675; j0AO_2132_lastcheckfeed=1%7C1519272871; Huiskin=green; PHPSESSID=b9v9msosc81tli67k08tmpmn10; Hm_lvt_080836300300be57b7f34f4b3e97d911=1518324716,1519276402,1519357860; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1519381298',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/myo2o/public/index.php/admin/city/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'parent_id' => '5',
+)
+[ info ] [ RUN ] app\admin\controller\City->index[ E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\application\admin\controller\City.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\public/../application/admin\view\city\index.html [ array (
+  0 => 'parentId',
+  1 => 'normalCity',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-23T18:26:05+08:00 ] 127.0.0.1 127.0.0.1 GET /myo2o/public/index.php/admin/city/index.html
+[ log ] localhost/myo2o/public/index.php/admin/city/index.html [运行时间：0.056003s][吞吐率：17.86req/s] [内存消耗：1,981.53kb] [文件加载：48]
+[ info ] [ LANG ] E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'city',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1896228864; yvJD_2132_saltkey=REoMi8Yd; yvJD_2132_lastvisit=1518876226; yvJD_2132_ulastactivity=1818nt7P61DLF2zsINL6y2DVeA%2BAsZykIh6SQYvQ8DFLSwBljG%2FO; yvJD_2132_nofavfid=1; j0AO_2132_widthauto=1; j0AO_2132_saltkey=jrb3tTeC; j0AO_2132_lastvisit=1519133195; j0AO_2132_smile=1D1; j0AO_2132_nofavfid=1; j0AO_2132_collapse=_category_1_; ECS[username]=lwa510; ECS[visit_times]=8; j0AO_2132_ulastactivity=423dVQqybUL4LYA8wMR%2BUlspqgFXpO1Ydqfrupl9NUO4dVCrT%2F6N; j0AO_2132_lastviewtime=1%7C1519272675; j0AO_2132_lastcheckfeed=1%7C1519272871; Huiskin=green; PHPSESSID=b9v9msosc81tli67k08tmpmn10; Hm_lvt_080836300300be57b7f34f4b3e97d911=1518324716,1519276402,1519357860; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1519381298',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/myo2o/public/index.php/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\City->index[ E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\application\admin\controller\City.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\public/../application/admin\view\city\index.html [ array (
+  0 => 'parentId',
+  1 => 'normalCity',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-23T18:26:06+08:00 ] 127.0.0.1 127.0.0.1 GET /myo2o/public/index.php/admin/city/index.html?parent_id=2
+[ log ] localhost/myo2o/public/index.php/admin/city/index.html?parent_id=2 [运行时间：0.039602s][吞吐率：25.25req/s] [内存消耗：1,979.72kb] [文件加载：48]
+[ info ] [ LANG ] E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'city',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1896228864; yvJD_2132_saltkey=REoMi8Yd; yvJD_2132_lastvisit=1518876226; yvJD_2132_ulastactivity=1818nt7P61DLF2zsINL6y2DVeA%2BAsZykIh6SQYvQ8DFLSwBljG%2FO; yvJD_2132_nofavfid=1; j0AO_2132_widthauto=1; j0AO_2132_saltkey=jrb3tTeC; j0AO_2132_lastvisit=1519133195; j0AO_2132_smile=1D1; j0AO_2132_nofavfid=1; j0AO_2132_collapse=_category_1_; ECS[username]=lwa510; ECS[visit_times]=8; j0AO_2132_ulastactivity=423dVQqybUL4LYA8wMR%2BUlspqgFXpO1Ydqfrupl9NUO4dVCrT%2F6N; j0AO_2132_lastviewtime=1%7C1519272675; j0AO_2132_lastcheckfeed=1%7C1519272871; Huiskin=green; PHPSESSID=b9v9msosc81tli67k08tmpmn10; Hm_lvt_080836300300be57b7f34f4b3e97d911=1518324716,1519276402,1519357860; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1519381298',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/myo2o/public/index.php/admin/city/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'parent_id' => '2',
+)
+[ info ] [ RUN ] app\admin\controller\City->index[ E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\application\admin\controller\City.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\public/../application/admin\view\city\index.html [ array (
+  0 => 'parentId',
+  1 => 'normalCity',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-23T18:26:07+08:00 ] 127.0.0.1 127.0.0.1 GET /myo2o/public/index.php/admin/city/index.html
+[ log ] localhost/myo2o/public/index.php/admin/city/index.html [运行时间：0.051002s][吞吐率：19.61req/s] [内存消耗：1,981.53kb] [文件加载：48]
+[ info ] [ LANG ] E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'city',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1896228864; yvJD_2132_saltkey=REoMi8Yd; yvJD_2132_lastvisit=1518876226; yvJD_2132_ulastactivity=1818nt7P61DLF2zsINL6y2DVeA%2BAsZykIh6SQYvQ8DFLSwBljG%2FO; yvJD_2132_nofavfid=1; j0AO_2132_widthauto=1; j0AO_2132_saltkey=jrb3tTeC; j0AO_2132_lastvisit=1519133195; j0AO_2132_smile=1D1; j0AO_2132_nofavfid=1; j0AO_2132_collapse=_category_1_; ECS[username]=lwa510; ECS[visit_times]=8; j0AO_2132_ulastactivity=423dVQqybUL4LYA8wMR%2BUlspqgFXpO1Ydqfrupl9NUO4dVCrT%2F6N; j0AO_2132_lastviewtime=1%7C1519272675; j0AO_2132_lastcheckfeed=1%7C1519272871; Huiskin=green; PHPSESSID=b9v9msosc81tli67k08tmpmn10; Hm_lvt_080836300300be57b7f34f4b3e97d911=1518324716,1519276402,1519357860; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1519381298',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/myo2o/public/index.php/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\City->index[ E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\application\admin\controller\City.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\public/../application/admin\view\city\index.html [ array (
+  0 => 'parentId',
+  1 => 'normalCity',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-23T18:26:09+08:00 ] 127.0.0.1 127.0.0.1 GET /myo2o/public/index.php/admin/city/index.html?parent_id=1
+[ log ] localhost/myo2o/public/index.php/admin/city/index.html?parent_id=1 [运行时间：0.061004s][吞吐率：16.39req/s] [内存消耗：1,979.73kb] [文件加载：48]
+[ info ] [ LANG ] E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'city',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1896228864; yvJD_2132_saltkey=REoMi8Yd; yvJD_2132_lastvisit=1518876226; yvJD_2132_ulastactivity=1818nt7P61DLF2zsINL6y2DVeA%2BAsZykIh6SQYvQ8DFLSwBljG%2FO; yvJD_2132_nofavfid=1; j0AO_2132_widthauto=1; j0AO_2132_saltkey=jrb3tTeC; j0AO_2132_lastvisit=1519133195; j0AO_2132_smile=1D1; j0AO_2132_nofavfid=1; j0AO_2132_collapse=_category_1_; ECS[username]=lwa510; ECS[visit_times]=8; j0AO_2132_ulastactivity=423dVQqybUL4LYA8wMR%2BUlspqgFXpO1Ydqfrupl9NUO4dVCrT%2F6N; j0AO_2132_lastviewtime=1%7C1519272675; j0AO_2132_lastcheckfeed=1%7C1519272871; Huiskin=green; PHPSESSID=b9v9msosc81tli67k08tmpmn10; Hm_lvt_080836300300be57b7f34f4b3e97d911=1518324716,1519276402,1519357860; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1519381298',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/myo2o/public/index.php/admin/city/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'parent_id' => '1',
+)
+[ info ] [ RUN ] app\admin\controller\City->index[ E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\application\admin\controller\City.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\public/../application/admin\view\city\index.html [ array (
+  0 => 'parentId',
+  1 => 'normalCity',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-23T18:26:10+08:00 ] 127.0.0.1 127.0.0.1 GET /myo2o/public/index.php/admin/city/index.html
+[ log ] localhost/myo2o/public/index.php/admin/city/index.html [运行时间：0.058003s][吞吐率：17.24req/s] [内存消耗：1,981.53kb] [文件加载：48]
+[ info ] [ LANG ] E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'city',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1896228864; yvJD_2132_saltkey=REoMi8Yd; yvJD_2132_lastvisit=1518876226; yvJD_2132_ulastactivity=1818nt7P61DLF2zsINL6y2DVeA%2BAsZykIh6SQYvQ8DFLSwBljG%2FO; yvJD_2132_nofavfid=1; j0AO_2132_widthauto=1; j0AO_2132_saltkey=jrb3tTeC; j0AO_2132_lastvisit=1519133195; j0AO_2132_smile=1D1; j0AO_2132_nofavfid=1; j0AO_2132_collapse=_category_1_; ECS[username]=lwa510; ECS[visit_times]=8; j0AO_2132_ulastactivity=423dVQqybUL4LYA8wMR%2BUlspqgFXpO1Ydqfrupl9NUO4dVCrT%2F6N; j0AO_2132_lastviewtime=1%7C1519272675; j0AO_2132_lastcheckfeed=1%7C1519272871; Huiskin=green; PHPSESSID=b9v9msosc81tli67k08tmpmn10; Hm_lvt_080836300300be57b7f34f4b3e97d911=1518324716,1519276402,1519357860; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1519381298',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/myo2o/public/index.php/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\City->index[ E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\application\admin\controller\City.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\public/../application/admin\view\city\index.html [ array (
+  0 => 'parentId',
+  1 => 'normalCity',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-23T18:26:13+08:00 ] 127.0.0.1 127.0.0.1 GET /myo2o/public/index.php/admin/bis/index.html
+[ log ] localhost/myo2o/public/index.php/admin/bis/index.html [运行时间：0.168010s][吞吐率：5.95req/s] [内存消耗：2,014.19kb] [文件加载：51]
+[ info ] [ LANG ] E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'bis',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1896228864; yvJD_2132_saltkey=REoMi8Yd; yvJD_2132_lastvisit=1518876226; yvJD_2132_ulastactivity=1818nt7P61DLF2zsINL6y2DVeA%2BAsZykIh6SQYvQ8DFLSwBljG%2FO; yvJD_2132_nofavfid=1; j0AO_2132_widthauto=1; j0AO_2132_saltkey=jrb3tTeC; j0AO_2132_lastvisit=1519133195; j0AO_2132_smile=1D1; j0AO_2132_nofavfid=1; j0AO_2132_collapse=_category_1_; ECS[username]=lwa510; ECS[visit_times]=8; j0AO_2132_ulastactivity=423dVQqybUL4LYA8wMR%2BUlspqgFXpO1Ydqfrupl9NUO4dVCrT%2F6N; j0AO_2132_lastviewtime=1%7C1519272675; j0AO_2132_lastcheckfeed=1%7C1519272871; Huiskin=green; PHPSESSID=b9v9msosc81tli67k08tmpmn10; Hm_lvt_080836300300be57b7f34f4b3e97d911=1518324716,1519276402,1519357860; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1519381298',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/myo2o/public/index.php/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Bis->index[ E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\application\admin\controller\Bis.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\public/../application/admin\view\bis\index.html [ array (
+  0 => 'bis',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-23T18:26:16+08:00 ] 127.0.0.1 127.0.0.1 GET /myo2o/public/index.php/admin/bis/apply.html
+[ log ] localhost/myo2o/public/index.php/admin/bis/apply.html [运行时间：0.106006s][吞吐率：9.43req/s] [内存消耗：2,014.25kb] [文件加载：51]
+[ info ] [ LANG ] E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'bis',
+    2 => 'apply',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1896228864; yvJD_2132_saltkey=REoMi8Yd; yvJD_2132_lastvisit=1518876226; yvJD_2132_ulastactivity=1818nt7P61DLF2zsINL6y2DVeA%2BAsZykIh6SQYvQ8DFLSwBljG%2FO; yvJD_2132_nofavfid=1; j0AO_2132_widthauto=1; j0AO_2132_saltkey=jrb3tTeC; j0AO_2132_lastvisit=1519133195; j0AO_2132_smile=1D1; j0AO_2132_nofavfid=1; j0AO_2132_collapse=_category_1_; ECS[username]=lwa510; ECS[visit_times]=8; j0AO_2132_ulastactivity=423dVQqybUL4LYA8wMR%2BUlspqgFXpO1Ydqfrupl9NUO4dVCrT%2F6N; j0AO_2132_lastviewtime=1%7C1519272675; j0AO_2132_lastcheckfeed=1%7C1519272871; Huiskin=green; PHPSESSID=b9v9msosc81tli67k08tmpmn10; Hm_lvt_080836300300be57b7f34f4b3e97d911=1518324716,1519276402,1519357860; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1519381298',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/myo2o/public/index.php/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Bis->apply[ E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\application\admin\controller\Bis.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\public/../application/admin\view\bis\apply.html [ array (
+  0 => 'bis',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-23T18:26:21+08:00 ] 127.0.0.1 127.0.0.1 GET /myo2o/public/index.php/admin/bis/index.html
+[ log ] localhost/myo2o/public/index.php/admin/bis/index.html [运行时间：0.054003s][吞吐率：18.52req/s] [内存消耗：2,014.19kb] [文件加载：51]
+[ info ] [ LANG ] E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'bis',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1896228864; yvJD_2132_saltkey=REoMi8Yd; yvJD_2132_lastvisit=1518876226; yvJD_2132_ulastactivity=1818nt7P61DLF2zsINL6y2DVeA%2BAsZykIh6SQYvQ8DFLSwBljG%2FO; yvJD_2132_nofavfid=1; j0AO_2132_widthauto=1; j0AO_2132_saltkey=jrb3tTeC; j0AO_2132_lastvisit=1519133195; j0AO_2132_smile=1D1; j0AO_2132_nofavfid=1; j0AO_2132_collapse=_category_1_; ECS[username]=lwa510; ECS[visit_times]=8; j0AO_2132_ulastactivity=423dVQqybUL4LYA8wMR%2BUlspqgFXpO1Ydqfrupl9NUO4dVCrT%2F6N; j0AO_2132_lastviewtime=1%7C1519272675; j0AO_2132_lastcheckfeed=1%7C1519272871; Huiskin=green; PHPSESSID=b9v9msosc81tli67k08tmpmn10; Hm_lvt_080836300300be57b7f34f4b3e97d911=1518324716,1519276402,1519357860; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1519381298',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/myo2o/public/index.php/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Bis->index[ E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\application\admin\controller\Bis.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\public/../application/admin\view\bis\index.html [ array (
+  0 => 'bis',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-23T18:26:25+08:00 ] 127.0.0.1 127.0.0.1 GET /myo2o/public/index.php/admin/bis/apply.html
+[ log ] localhost/myo2o/public/index.php/admin/bis/apply.html [运行时间：0.047003s][吞吐率：21.28req/s] [内存消耗：2,014.25kb] [文件加载：51]
+[ info ] [ LANG ] E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'bis',
+    2 => 'apply',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1896228864; yvJD_2132_saltkey=REoMi8Yd; yvJD_2132_lastvisit=1518876226; yvJD_2132_ulastactivity=1818nt7P61DLF2zsINL6y2DVeA%2BAsZykIh6SQYvQ8DFLSwBljG%2FO; yvJD_2132_nofavfid=1; j0AO_2132_widthauto=1; j0AO_2132_saltkey=jrb3tTeC; j0AO_2132_lastvisit=1519133195; j0AO_2132_smile=1D1; j0AO_2132_nofavfid=1; j0AO_2132_collapse=_category_1_; ECS[username]=lwa510; ECS[visit_times]=8; j0AO_2132_ulastactivity=423dVQqybUL4LYA8wMR%2BUlspqgFXpO1Ydqfrupl9NUO4dVCrT%2F6N; j0AO_2132_lastviewtime=1%7C1519272675; j0AO_2132_lastcheckfeed=1%7C1519272871; Huiskin=green; PHPSESSID=b9v9msosc81tli67k08tmpmn10; Hm_lvt_080836300300be57b7f34f4b3e97d911=1518324716,1519276402,1519357860; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1519381298',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/myo2o/public/index.php/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Bis->apply[ E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\application\admin\controller\Bis.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\public/../application/admin\view\bis\apply.html [ array (
+  0 => 'bis',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-23T18:26:26+08:00 ] 127.0.0.1 127.0.0.1 GET /myo2o/public/index.php/admin/bis/index.html
+[ log ] localhost/myo2o/public/index.php/admin/bis/index.html [运行时间：0.044002s][吞吐率：22.73req/s] [内存消耗：2,014.19kb] [文件加载：51]
+[ info ] [ LANG ] E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'bis',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1896228864; yvJD_2132_saltkey=REoMi8Yd; yvJD_2132_lastvisit=1518876226; yvJD_2132_ulastactivity=1818nt7P61DLF2zsINL6y2DVeA%2BAsZykIh6SQYvQ8DFLSwBljG%2FO; yvJD_2132_nofavfid=1; j0AO_2132_widthauto=1; j0AO_2132_saltkey=jrb3tTeC; j0AO_2132_lastvisit=1519133195; j0AO_2132_smile=1D1; j0AO_2132_nofavfid=1; j0AO_2132_collapse=_category_1_; ECS[username]=lwa510; ECS[visit_times]=8; j0AO_2132_ulastactivity=423dVQqybUL4LYA8wMR%2BUlspqgFXpO1Ydqfrupl9NUO4dVCrT%2F6N; j0AO_2132_lastviewtime=1%7C1519272675; j0AO_2132_lastcheckfeed=1%7C1519272871; Huiskin=green; PHPSESSID=b9v9msosc81tli67k08tmpmn10; Hm_lvt_080836300300be57b7f34f4b3e97d911=1518324716,1519276402,1519357860; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1519381298',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/myo2o/public/index.php/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Bis->index[ E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\application\admin\controller\Bis.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\public/../application/admin\view\bis\index.html [ array (
+  0 => 'bis',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-23T18:26:57+08:00 ] 127.0.0.1 127.0.0.1 GET /myo2o/public/index.php/admin/featured/add.html
+[ log ] localhost/myo2o/public/index.php/admin/featured/add.html [运行时间：0.050003s][吞吐率：20.00req/s] [内存消耗：1,349.38kb] [文件加载：42]
+[ info ] [ LANG ] E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'featured',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1896228864; yvJD_2132_saltkey=REoMi8Yd; yvJD_2132_lastvisit=1518876226; yvJD_2132_ulastactivity=1818nt7P61DLF2zsINL6y2DVeA%2BAsZykIh6SQYvQ8DFLSwBljG%2FO; yvJD_2132_nofavfid=1; j0AO_2132_widthauto=1; j0AO_2132_saltkey=jrb3tTeC; j0AO_2132_lastvisit=1519133195; j0AO_2132_smile=1D1; j0AO_2132_nofavfid=1; j0AO_2132_collapse=_category_1_; ECS[username]=lwa510; ECS[visit_times]=8; j0AO_2132_ulastactivity=423dVQqybUL4LYA8wMR%2BUlspqgFXpO1Ydqfrupl9NUO4dVCrT%2F6N; j0AO_2132_lastviewtime=1%7C1519272675; j0AO_2132_lastcheckfeed=1%7C1519272871; Huiskin=green; PHPSESSID=b9v9msosc81tli67k08tmpmn10; Hm_lvt_080836300300be57b7f34f4b3e97d911=1518324716,1519276402,1519357860; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1519381298',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/myo2o/public/index.php/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Featured->add[ E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\application\admin\controller\Featured.php ]
+[ info ] [ VIEW ] E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\public/../application/admin\view\featured\add.html [ array (
+  0 => 'types',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-23T18:26:57+08:00 ] 127.0.0.1 127.0.0.1 GET /myo2o/public/index.php/admin/featured/
+[ log ] localhost/myo2o/public/index.php/admin/featured/ [运行时间：0.075004s][吞吐率：13.33req/s] [内存消耗：2,058.16kb] [文件加载：53]
+[ info ] [ LANG ] E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'featured',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1896228864; yvJD_2132_saltkey=REoMi8Yd; yvJD_2132_lastvisit=1518876226; yvJD_2132_ulastactivity=1818nt7P61DLF2zsINL6y2DVeA%2BAsZykIh6SQYvQ8DFLSwBljG%2FO; yvJD_2132_nofavfid=1; j0AO_2132_widthauto=1; j0AO_2132_saltkey=jrb3tTeC; j0AO_2132_lastvisit=1519133195; j0AO_2132_smile=1D1; j0AO_2132_nofavfid=1; j0AO_2132_collapse=_category_1_; ECS[username]=lwa510; ECS[visit_times]=8; j0AO_2132_ulastactivity=423dVQqybUL4LYA8wMR%2BUlspqgFXpO1Ydqfrupl9NUO4dVCrT%2F6N; j0AO_2132_lastviewtime=1%7C1519272675; j0AO_2132_lastcheckfeed=1%7C1519272871; Huiskin=green; PHPSESSID=b9v9msosc81tli67k08tmpmn10; Hm_lvt_080836300300be57b7f34f4b3e97d911=1518324716,1519276402,1519357860; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1519381298',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/myo2o/public/index.php/admin/featured/add.html',
+  'accept' => '*/*',
+  'x-requested-with' => 'ShockwaveFlash/28.0.0.161',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Featured->index[ E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\application\admin\controller\Featured.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\public/../application/admin\view\featured\index.html [ array (
+  0 => 'types',
+  1 => 'results',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-23T18:26:59+08:00 ] 127.0.0.1 127.0.0.1 GET /myo2o/public/index.php/admin/featured/index.html
+[ log ] localhost/myo2o/public/index.php/admin/featured/index.html [运行时间：0.059003s][吞吐率：16.95req/s] [内存消耗：2,058.55kb] [文件加载：53]
+[ info ] [ LANG ] E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'featured',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1896228864; yvJD_2132_saltkey=REoMi8Yd; yvJD_2132_lastvisit=1518876226; yvJD_2132_ulastactivity=1818nt7P61DLF2zsINL6y2DVeA%2BAsZykIh6SQYvQ8DFLSwBljG%2FO; yvJD_2132_nofavfid=1; j0AO_2132_widthauto=1; j0AO_2132_saltkey=jrb3tTeC; j0AO_2132_lastvisit=1519133195; j0AO_2132_smile=1D1; j0AO_2132_nofavfid=1; j0AO_2132_collapse=_category_1_; ECS[username]=lwa510; ECS[visit_times]=8; j0AO_2132_ulastactivity=423dVQqybUL4LYA8wMR%2BUlspqgFXpO1Ydqfrupl9NUO4dVCrT%2F6N; j0AO_2132_lastviewtime=1%7C1519272675; j0AO_2132_lastcheckfeed=1%7C1519272871; Huiskin=green; PHPSESSID=b9v9msosc81tli67k08tmpmn10; Hm_lvt_080836300300be57b7f34f4b3e97d911=1518324716,1519276402,1519357860; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1519381298',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/myo2o/public/index.php/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Featured->index[ E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\application\admin\controller\Featured.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\public/../application/admin\view\featured\index.html [ array (
+  0 => 'types',
+  1 => 'results',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------

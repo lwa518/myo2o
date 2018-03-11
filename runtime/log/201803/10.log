@@ -1,0 +1,268 @@
+[ 2018-03-10T00:32:09+08:00 ] 172.27.0.5 183.57.53.196 GET /myo2o/public/index.php/admin/featured/add.html
+[ log ] 119.27.190.162/myo2o/public/index.php/admin/featured/add.html [运行时间：0.028621s][吞吐率：34.94req/s] [内存消耗：1,641.28kb] [文件加载：52]
+[ info ] [ LANG ] /var/www/html/myo2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'featured',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '119.27.190.162',
+  'accept-encoding' => 'deflate, gzip',
+  'accept' => '*/*',
+  'accept-language' => 'zh-cn',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_3_4 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Mobile/13G35 QQ/6.5.3.410 V1_IPH_SQ_6.5.3_1_APP_A Pixel/750 Core/UIWebView NetType/2G Mem/117',
+  'connection' => 'Close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Featured->add[ /var/www/html/myo2o/application/admin/controller/Featured.php ]
+[ info ] [ VIEW ] /var/www/html/myo2o/public/../application/admin/view/featured/add.html [ array (
+  0 => 'types',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-03-10T01:03:47+08:00 ] 172.27.0.5 112.90.82.236 GET /myo2o/public/index.php/api/city/getcitysbyparentid.html
+[ log ] 119.27.190.162/myo2o/public/index.php/api/city/getcitysbyparentid.html [运行时间：0.042714s][吞吐率：23.41req/s] [内存消耗：1,576.80kb] [文件加载：50]
+[ info ] [ LANG ] /var/www/html/myo2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'city',
+    2 => 'getcitysbyparentid',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '119.27.190.162',
+  'accept-encoding' => 'deflate, gzip',
+  'accept' => '*/*',
+  'accept-language' => 'zh-cn',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_3_4 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Mobile/13G35 QQ/6.5.3.410 V1_IPH_SQ_6.5.3_1_APP_A Pixel/750 Core/UIWebView NetType/2G Mem/117',
+  'connection' => 'Close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\City->getCitysByParentId[ /var/www/html/myo2o/application/api/controller/City.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-03-10T01:04:42+08:00 ] 172.27.0.5 183.57.53.196 GET /myo2o/public/index.php/api/image/upload.html
+[ log ] 119.27.190.162/myo2o/public/index.php/api/image/upload.html [运行时间：0.039630s][吞吐率：25.23req/s] [内存消耗：1,449.33kb] [文件加载：49]
+[ info ] [ LANG ] /var/www/html/myo2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'image',
+    2 => 'upload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '119.27.190.162',
+  'accept-encoding' => 'deflate, gzip',
+  'accept' => '*/*',
+  'accept-language' => 'zh-cn',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_3_4 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Mobile/13G35 QQ/6.5.3.410 V1_IPH_SQ_6.5.3_1_APP_A Pixel/750 Core/UIWebView NetType/2G Mem/117',
+  'connection' => 'Close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Image->upload[ /var/www/html/myo2o/application/api/controller/Image.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-03-10T01:29:05+08:00 ] 172.27.0.5 183.57.53.177 GET /myo2o/public/index.php/api/category/getcategorybyparentid.html
+[ log ] 119.27.190.162/myo2o/public/index.php/api/category/getcategorybyparentid.html [运行时间：0.022595s][吞吐率：44.26req/s] [内存消耗：1,581.69kb] [文件加载：50]
+[ info ] [ LANG ] /var/www/html/myo2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'category',
+    2 => 'getcategorybyparentid',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '119.27.190.162',
+  'accept-encoding' => 'deflate, gzip',
+  'accept' => '*/*',
+  'accept-language' => 'zh-cn',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_3_4 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Mobile/13G35 QQ/6.5.3.410 V1_IPH_SQ_6.5.3_1_APP_A Pixel/750 Core/UIWebView NetType/2G Mem/117',
+  'connection' => 'Close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Category->getCategoryByParentId[ /var/www/html/myo2o/application/api/controller/Category.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-03-10T01:29:05+08:00 ] 172.27.0.5 183.57.53.222 GET /myo2o/public/index.php/admin/featured/index.html
+[ log ] 119.27.190.162/myo2o/public/index.php/admin/featured/index.html [运行时间：0.036330s][吞吐率：27.53req/s] [内存消耗：2,278.44kb] [文件加载：59]
+[ info ] [ LANG ] /var/www/html/myo2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'featured',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '119.27.190.162',
+  'accept-encoding' => 'deflate, gzip',
+  'accept' => '*/*',
+  'accept-language' => 'zh-cn',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_3_4 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Mobile/13G35 QQ/6.5.3.410 V1_IPH_SQ_6.5.3_1_APP_A Pixel/750 Core/UIWebView NetType/2G Mem/117',
+  'connection' => 'Close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Featured->index[ /var/www/html/myo2o/application/admin/controller/Featured.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /var/www/html/myo2o/public/../application/admin/view/featured/index.html [ array (
+  0 => 'types',
+  1 => 'results',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-03-10T03:32:31+08:00 ] 172.27.0.5 119.147.207.152 GET /myo2o/public/index.php/bis/deal/index.html
+[ log ] 119.27.190.162/myo2o/public/index.php/bis/deal/index.html [运行时间：0.015751s][吞吐率：63.49req/s] [内存消耗：1,486.48kb] [文件加载：50]
+[ info ] [ LANG ] /var/www/html/myo2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'deal',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '119.27.190.162',
+  'accept-encoding' => 'deflate, gzip',
+  'accept' => '*/*',
+  'accept-language' => 'zh-cn',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_3_4 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Mobile/13G35 QQ/6.5.3.410 V1_IPH_SQ_6.5.3_1_APP_A Pixel/750 Core/UIWebView NetType/2G Mem/117',
+  'connection' => 'Close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-03-10T03:32:31+08:00 ] 172.27.0.5 119.147.207.152 GET /myo2o/public/index.php/bis/login/index.html
+[ log ] 119.27.190.162/myo2o/public/index.php/bis/login/index.html [运行时间：0.013133s][吞吐率：76.14req/s] [内存消耗：1,471.34kb] [文件加载：48]
+[ info ] [ LANG ] /var/www/html/myo2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '119.27.190.162',
+  'accept-encoding' => 'deflate, gzip',
+  'referer' => 'http://119.27.190.162/myo2o/public/index.php/bis/deal/index.html',
+  'accept' => '*/*',
+  'accept-language' => 'zh-cn',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_3_4 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Mobile/13G35 QQ/6.5.3.410 V1_IPH_SQ_6.5.3_1_APP_A Pixel/750 Core/UIWebView NetType/2G Mem/117',
+  'connection' => 'Close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\bis\controller\Login->index[ /var/www/html/myo2o/application/bis/controller/Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] /var/www/html/myo2o/public/../application/bis/view/login/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-03-10T15:06:02+08:00 ] 172.27.0.5 117.152.205.243 GET /myo2o/public/index.php/bis/register/waiting.html?id=1
+[ log ] 119.27.190.162/myo2o/public/index.php/bis/register/waiting.html?id=1 [运行时间：0.047523s][吞吐率：21.04req/s] [内存消耗：2,246.87kb] [文件加载：57]
+[ info ] [ LANG ] /var/www/html/myo2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'register',
+    2 => 'waiting',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '119.27.190.162',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (iPad; CPU OS 11_2_5 like Mac OS X) AppleWebKit/604.5.6 (KHTML, like Gecko) Mobile/15D60 mailapp/5.4.0',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ RUN ] app\bis\controller\Register->waiting[ /var/www/html/myo2o/application/bis/controller/Register.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /var/www/html/myo2o/public/../application/bis/view/register/waiting.html [ array (
+  0 => 'detail',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-03-10T15:17:33+08:00 ] 172.27.0.5 61.151.178.171 GET /myo2o/public/index.php/bis/register/waiting.html?id=1
+[ log ] 119.27.190.162/myo2o/public/index.php/bis/register/waiting.html?id=1 [运行时间：0.022489s][吞吐率：44.47req/s] [内存消耗：2,244.89kb] [文件加载：57]
+[ info ] [ LANG ] /var/www/html/myo2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'register',
+    2 => 'waiting',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'host' => '119.27.190.162',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ RUN ] app\bis\controller\Register->waiting[ /var/www/html/myo2o/application/bis/controller/Register.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /var/www/html/myo2o/public/../application/bis/view/register/waiting.html [ array (
+  0 => 'detail',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------

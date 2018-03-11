@@ -1,0 +1,4 @@
+[ 2018-03-10T01:04:42+08:00 ] 172.27.0.5 183.57.53.196 GET /myo2o/public/index.php/api/image/upload.html
+[ error ] [0]致命错误: Call to a member function move() on null[/var/www/html/myo2o/application/api/controller/Image.php:11]
+
+---------------------------------------------------------------

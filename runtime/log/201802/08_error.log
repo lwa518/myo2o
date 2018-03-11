@@ -1,0 +1,5 @@
+[ 2018-02-08T20:19:06+08:00 ] 127.0.0.1 127.0.0.1 GET /myo2o/public/index.php?admin/index/index
+[ error ] [2002]SQLSTATE[HY000] [2002] 由于目标计算机积极拒绝，无法连接。
+[E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\thinkphp\library\think\db\Connection.php:282]
+
+---------------------------------------------------------------

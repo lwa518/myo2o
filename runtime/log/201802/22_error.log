@@ -1,0 +1,72 @@
+[ 2018-02-22T16:10:23+08:00 ] 127.0.0.1 127.0.0.1 GET /myo2o/public/index.php/admin/city/add.html
+[ error ] [0]method not exist:think\db\Query->getNormalFirstCategory[E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\thinkphp\library\think\db\Query.php:91]
+
+---------------------------------------------------------------
+[ 2018-02-22T16:26:18+08:00 ] 127.0.0.1 127.0.0.1 GET /myo2o/public/index.php/admin/city/add.html
+[ error ] [8]未定义变量: cities[E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\runtime\temp\b4e3085602041cadcaf4ccd83100cb08.php:49]
+
+---------------------------------------------------------------
+[ 2018-02-22T16:28:19+08:00 ] 127.0.0.1 127.0.0.1 GET /myo2o/public/index.php/admin/city/add.html
+[ error ] [8]未定义变量: cities[E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\runtime\temp\b4e3085602041cadcaf4ccd83100cb08.php:49]
+
+---------------------------------------------------------------
+[ 2018-02-22T16:28:30+08:00 ] 127.0.0.1 127.0.0.1 GET /myo2o/public/index.php/admin/city/edit.html?id=1
+[ error ] [0]method not exist:think\db\Query->getNormalFirstCategory[E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\thinkphp\library\think\db\Query.php:91]
+
+---------------------------------------------------------------
+[ 2018-02-22T16:43:27+08:00 ] 127.0.0.1 127.0.0.1 POST /myo2o/public/index.php/admin/city/save.html
+[ error ] [0]method not exist:think\db\Query->add[E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\thinkphp\library\think\db\Query.php:91]
+
+---------------------------------------------------------------
+[ 2018-02-22T16:50:43+08:00 ] 127.0.0.1 127.0.0.1 POST /myo2o/public/index.php/admin/city/save.html
+[ error ] [10501]SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '' for key 'uname'[E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\thinkphp\library\think\db\Connection.php:405]
+
+---------------------------------------------------------------
+[ 2018-02-22T16:51:13+08:00 ] 127.0.0.1 127.0.0.1 POST /myo2o/public/index.php/admin/city/save.html
+[ error ] [10501]SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '' for key 'uname'[E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\thinkphp\library\think\db\Connection.php:405]
+
+---------------------------------------------------------------
+[ 2018-02-22T16:57:44+08:00 ] 127.0.0.1 127.0.0.1 GET /myo2o/public/index.php/admin/city/edit.html?id=5
+[ error ] [0]method not exist:think\db\Query->getNormalFirstCategory[E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\thinkphp\library\think\db\Query.php:91]
+
+---------------------------------------------------------------
+[ 2018-02-22T17:05:24+08:00 ] 127.0.0.1 127.0.0.1 GET /myo2o/public/index.php/admin/city/edit.html?id=5
+[ error ] [0]method not exist:think\db\Query->getNormalFirstCategory[E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\thinkphp\library\think\db\Query.php:91]
+
+---------------------------------------------------------------
+[ 2018-02-22T17:06:46+08:00 ] 127.0.0.1 127.0.0.1 GET /myo2o/public/index.php/admin/city/edit.html?id=5
+[ error ] [0]method not exist:think\db\Query->getNormalFirstCategory[E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\thinkphp\library\think\db\Query.php:91]
+
+---------------------------------------------------------------
+[ 2018-02-22T17:27:51+08:00 ] 127.0.0.1 127.0.0.1 GET /myo2o/public/index.php/admin/city/edit.html?id=6
+[ error ] [8]未定义变量: cities[E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\runtime\temp\f9e967fd2a268e40534f33ceda9fa5ae.php:58]
+
+---------------------------------------------------------------
+[ 2018-02-22T17:41:10+08:00 ] 127.0.0.1 127.0.0.1 GET /myo2o/public/index.php/bis/register/index.html
+[ error ] [0]method not exist:think\db\Query->getNormalCitysByParentId[E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\thinkphp\library\think\db\Query.php:91]
+
+---------------------------------------------------------------
+[ 2018-02-22T20:10:08+08:00 ] 127.0.0.1 127.0.0.1 GET /myo2o/public/index.php/bis/register/index.html
+[ error ] [0]method not exist:think\db\Query->getNormalCitysByParentId[E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\thinkphp\library\think\db\Query.php:91]
+
+---------------------------------------------------------------
+[ 2018-02-22T20:13:02+08:00 ] 127.0.0.1 127.0.0.1 POST /myo2o/public/index.php/api/city/getcitysbyparentid.html
+[ error ] [0]method not exist:think\db\Query->getNormalCitysByParentId[E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\thinkphp\library\think\db\Query.php:91]
+
+---------------------------------------------------------------
+[ 2018-02-22T20:24:01+08:00 ] 127.0.0.1 127.0.0.1 POST /myo2o/public/index.php/api/city/getcitysbyparentid.html
+[ error ] [0]method not exist:think\db\Query->getNormalCitysByParentId[E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\thinkphp\library\think\db\Query.php:91]
+
+---------------------------------------------------------------
+[ 2018-02-22T20:26:13+08:00 ] 127.0.0.1 127.0.0.1 POST /myo2o/public/index.php/api/city/getcitysbyparentid.html
+[ error ] [0]method not exist:think\db\Query->getNormalCitysByParentId[E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\thinkphp\library\think\db\Query.php:91]
+
+---------------------------------------------------------------
+[ 2018-02-22T20:34:19+08:00 ] 127.0.0.1 127.0.0.1 POST /myo2o/public/index.php/bis/register/add.html
+[ error ] [1]Class 'Map' not found[E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\application\bis\controller\Register.php:31]
+
+---------------------------------------------------------------
+[ 2018-02-22T20:37:52+08:00 ] 127.0.0.1 127.0.0.1 POST /myo2o/public/index.php/bis/register/add.html
+[ error ] [1]Class 'Map' not found[E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\application\bis\controller\Register.php:31]
+
+---------------------------------------------------------------

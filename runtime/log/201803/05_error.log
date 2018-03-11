@@ -1,0 +1,184 @@
+[ 2018-03-05T11:04:58+08:00 ] ::1 ::1 GET /myo2o/public/index.php/admin/deal/apply.html
+[ error ] [8]未定义数组下标: 7[C:\Apache24\htdocs\myo2o\runtime\temp\7b8c4bb1156266841636670e838c6eaa.php:86]
+
+---------------------------------------------------------------
+[ 2018-03-05T11:05:12+08:00 ] ::1 ::1 GET /myo2o/public/index.php/admin/deal/apply.html
+[ error ] [8]未定义数组下标: 7[C:\Apache24\htdocs\myo2o\runtime\temp\7b8c4bb1156266841636670e838c6eaa.php:86]
+
+---------------------------------------------------------------
+[ 2018-03-05T11:05:13+08:00 ] ::1 ::1 GET /myo2o/public/index.php/admin/deal/apply.html
+[ error ] [8]未定义数组下标: 7[C:\Apache24\htdocs\myo2o\runtime\temp\7b8c4bb1156266841636670e838c6eaa.php:86]
+
+---------------------------------------------------------------
+[ 2018-03-05T11:19:12+08:00 ] ::1 ::1 GET /myo2o/public/index.php/admin/deal/apply.html
+[ error ] [8]未定义数组下标: 7[C:\Apache24\htdocs\myo2o\runtime\temp\7b8c4bb1156266841636670e838c6eaa.php:86]
+
+---------------------------------------------------------------
+[ 2018-03-05T11:51:10+08:00 ] ::1 ::1 GET /myo2o/public/index.php/index/user/register.html
+[ error ] [0]致命错误: Call to undefined function captcha_img()[C:\Apache24\htdocs\myo2o\runtime\temp\38b561b95981e3a96872286a054ebd37.php:51]
+
+---------------------------------------------------------------
+[ 2018-03-05T12:22:38+08:00 ] ::1 ::1 GET /myo2o/public/index.php/index/user/register.html
+[ error ] [0]致命错误: Call to undefined function captcha_img()[C:\Apache24\htdocs\myo2o\runtime\temp\38b561b95981e3a96872286a054ebd37.php:51]
+
+---------------------------------------------------------------
+[ 2018-03-05T12:32:47+08:00 ] ::1 ::1 GET /myo2o/public/index.php/index/user/register.html
+[ error ] [0]致命错误: Call to undefined function captcha_img()[C:\Apache24\htdocs\myo2o\runtime\temp\38b561b95981e3a96872286a054ebd37.php:51]
+
+---------------------------------------------------------------
+[ 2018-03-05T12:32:49+08:00 ] ::1 ::1 GET /myo2o/public/index.php/index/user/register.html
+[ error ] [0]致命错误: Call to undefined function captcha_img()[C:\Apache24\htdocs\myo2o\runtime\temp\38b561b95981e3a96872286a054ebd37.php:51]
+
+---------------------------------------------------------------
+[ 2018-03-05T12:32:50+08:00 ] ::1 ::1 GET /myo2o/public/index.php/index/user/register.html
+[ error ] [0]致命错误: Call to undefined function captcha_img()[C:\Apache24\htdocs\myo2o\runtime\temp\38b561b95981e3a96872286a054ebd37.php:51]
+
+---------------------------------------------------------------
+[ 2018-03-05T12:35:31+08:00 ] ::1 ::1 GET /myo2o/public/index.php/index/user/register.html
+[ error ] [0]致命错误: Call to undefined function captcha_img()[C:\Apache24\htdocs\myo2o\runtime\temp\38b561b95981e3a96872286a054ebd37.php:51]
+
+---------------------------------------------------------------
+[ 2018-03-05T12:35:31+08:00 ] ::1 ::1 GET /myo2o/public/index.php/index/user/register.html
+[ error ] [0]致命错误: Call to undefined function captcha_img()[C:\Apache24\htdocs\myo2o\runtime\temp\38b561b95981e3a96872286a054ebd37.php:51]
+
+---------------------------------------------------------------
+[ 2018-03-05T12:35:32+08:00 ] ::1 ::1 GET /myo2o/public/index.php/index/user/register.html
+[ error ] [0]致命错误: Call to undefined function captcha_img()[C:\Apache24\htdocs\myo2o\runtime\temp\38b561b95981e3a96872286a054ebd37.php:51]
+
+---------------------------------------------------------------
+[ 2018-03-05T12:35:32+08:00 ] ::1 ::1 GET /myo2o/public/index.php/index/user/register.html
+[ error ] [0]致命错误: Call to undefined function captcha_img()[C:\Apache24\htdocs\myo2o\runtime\temp\38b561b95981e3a96872286a054ebd37.php:51]
+
+---------------------------------------------------------------
+[ 2018-03-05T12:35:32+08:00 ] ::1 ::1 GET /myo2o/public/index.php/index/user/register.html
+[ error ] [0]致命错误: Call to undefined function captcha_img()[C:\Apache24\htdocs\myo2o\runtime\temp\38b561b95981e3a96872286a054ebd37.php:51]
+
+---------------------------------------------------------------
+[ 2018-03-05T12:35:32+08:00 ] ::1 ::1 GET /myo2o/public/index.php/index/user/register.html
+[ error ] [0]致命错误: Call to undefined function captcha_img()[C:\Apache24\htdocs\myo2o\runtime\temp\38b561b95981e3a96872286a054ebd37.php:51]
+
+---------------------------------------------------------------
+[ 2018-03-05T12:36:18+08:00 ] ::1 ::1 GET /myo2o/public/index.php/index/user/register.html
+[ error ] [0]致命错误: Call to undefined function captcha_img()[C:\Apache24\htdocs\myo2o\runtime\temp\38b561b95981e3a96872286a054ebd37.php:51]
+
+---------------------------------------------------------------
+[ 2018-03-05T12:36:36+08:00 ] ::1 ::1 GET /myo2o/public/index.php/index/user/register.html
+[ error ] [0]致命错误: Call to undefined function captcha_img()[C:\Apache24\htdocs\myo2o\runtime\temp\38b561b95981e3a96872286a054ebd37.php:51]
+
+---------------------------------------------------------------
+[ 2018-03-05T12:40:25+08:00 ] ::1 ::1 GET /myo2o/public/index.php/index/user/register.html
+[ error ] [0]致命错误: Call to undefined function captcha_img()[C:\Apache24\htdocs\myo2o\runtime\temp\38b561b95981e3a96872286a054ebd37.php:51]
+
+---------------------------------------------------------------
+[ 2018-03-05T12:40:30+08:00 ] ::1 ::1 GET /myo2o/public/index.php/index/user/register.html
+[ error ] [0]致命错误: Call to undefined function captcha_img()[C:\Apache24\htdocs\myo2o\runtime\temp\38b561b95981e3a96872286a054ebd37.php:51]
+
+---------------------------------------------------------------
+[ 2018-03-05T12:40:30+08:00 ] ::1 ::1 GET /myo2o/public/index.php/index/user/register.html
+[ error ] [0]致命错误: Call to undefined function captcha_img()[C:\Apache24\htdocs\myo2o\runtime\temp\38b561b95981e3a96872286a054ebd37.php:51]
+
+---------------------------------------------------------------
+[ 2018-03-05T12:40:30+08:00 ] ::1 ::1 GET /myo2o/public/index.php/index/user/register.html
+[ error ] [0]致命错误: Call to undefined function captcha_img()[C:\Apache24\htdocs\myo2o\runtime\temp\38b561b95981e3a96872286a054ebd37.php:51]
+
+---------------------------------------------------------------
+[ 2018-03-05T12:40:30+08:00 ] ::1 ::1 GET /myo2o/public/index.php/index/user/register.html
+[ error ] [0]致命错误: Call to undefined function captcha_img()[C:\Apache24\htdocs\myo2o\runtime\temp\38b561b95981e3a96872286a054ebd37.php:51]
+
+---------------------------------------------------------------
+[ 2018-03-05T12:43:09+08:00 ] ::1 ::1 GET /myo2o/public/index.php/index/user/register.html
+[ error ] [0]致命错误: Call to undefined function captcha_img()[C:\Apache24\htdocs\myo2o\runtime\temp\38b561b95981e3a96872286a054ebd37.php:51]
+
+---------------------------------------------------------------
+[ 2018-03-05T12:43:10+08:00 ] ::1 ::1 GET /myo2o/public/index.php/index/user/register.html
+[ error ] [0]致命错误: Call to undefined function captcha_img()[C:\Apache24\htdocs\myo2o\runtime\temp\38b561b95981e3a96872286a054ebd37.php:51]
+
+---------------------------------------------------------------
+[ 2018-03-05T12:43:10+08:00 ] ::1 ::1 GET /myo2o/public/index.php/index/user/register.html
+[ error ] [0]致命错误: Call to undefined function captcha_img()[C:\Apache24\htdocs\myo2o\runtime\temp\38b561b95981e3a96872286a054ebd37.php:51]
+
+---------------------------------------------------------------
+[ 2018-03-05T12:43:10+08:00 ] ::1 ::1 GET /myo2o/public/index.php/index/user/register.html
+[ error ] [0]致命错误: Call to undefined function captcha_img()[C:\Apache24\htdocs\myo2o\runtime\temp\38b561b95981e3a96872286a054ebd37.php:51]
+
+---------------------------------------------------------------
+[ 2018-03-05T12:43:10+08:00 ] ::1 ::1 GET /myo2o/public/index.php/index/user/register.html
+[ error ] [0]致命错误: Call to undefined function captcha_img()[C:\Apache24\htdocs\myo2o\runtime\temp\38b561b95981e3a96872286a054ebd37.php:51]
+
+---------------------------------------------------------------
+[ 2018-03-05T12:43:10+08:00 ] ::1 ::1 GET /myo2o/public/index.php/index/user/register.html
+[ error ] [0]致命错误: Call to undefined function captcha_img()[C:\Apache24\htdocs\myo2o\runtime\temp\38b561b95981e3a96872286a054ebd37.php:51]
+
+---------------------------------------------------------------
+[ 2018-03-05T12:43:11+08:00 ] ::1 ::1 GET /myo2o/public/index.php/index/user/register.html
+[ error ] [0]致命错误: Call to undefined function captcha_img()[C:\Apache24\htdocs\myo2o\runtime\temp\38b561b95981e3a96872286a054ebd37.php:51]
+
+---------------------------------------------------------------
+[ 2018-03-05T12:43:11+08:00 ] ::1 ::1 GET /myo2o/public/index.php/index/user/register.html
+[ error ] [0]致命错误: Call to undefined function captcha_img()[C:\Apache24\htdocs\myo2o\runtime\temp\38b561b95981e3a96872286a054ebd37.php:51]
+
+---------------------------------------------------------------
+[ 2018-03-05T12:47:09+08:00 ] ::1 ::1 GET /myo2o/public/index.php/index/user/register.html
+[ error ] [0]致命错误: Call to undefined function captcha_img()[C:\Apache24\htdocs\myo2o\runtime\temp\38b561b95981e3a96872286a054ebd37.php:51]
+
+---------------------------------------------------------------
+[ 2018-03-05T12:47:10+08:00 ] ::1 ::1 GET /myo2o/public/index.php/index/user/register.html
+[ error ] [0]致命错误: Call to undefined function captcha_img()[C:\Apache24\htdocs\myo2o\runtime\temp\38b561b95981e3a96872286a054ebd37.php:51]
+
+---------------------------------------------------------------
+[ 2018-03-05T12:47:10+08:00 ] ::1 ::1 GET /myo2o/public/index.php/index/user/register.html
+[ error ] [0]致命错误: Call to undefined function captcha_img()[C:\Apache24\htdocs\myo2o\runtime\temp\38b561b95981e3a96872286a054ebd37.php:51]
+
+---------------------------------------------------------------
+[ 2018-03-05T12:47:11+08:00 ] ::1 ::1 GET /myo2o/public/index.php/index/user/register.html
+[ error ] [0]致命错误: Call to undefined function captcha_img()[C:\Apache24\htdocs\myo2o\runtime\temp\38b561b95981e3a96872286a054ebd37.php:51]
+
+---------------------------------------------------------------
+[ 2018-03-05T12:47:11+08:00 ] ::1 ::1 GET /myo2o/public/index.php/index/user/register.html
+[ error ] [0]致命错误: Call to undefined function captcha_img()[C:\Apache24\htdocs\myo2o\runtime\temp\38b561b95981e3a96872286a054ebd37.php:51]
+
+---------------------------------------------------------------
+[ 2018-03-05T12:47:22+08:00 ] ::1 ::1 GET /myo2o/public/index.php/index/user/register.html
+[ error ] [0]致命错误: Call to undefined function captcha_img()[C:\Apache24\htdocs\myo2o\runtime\temp\38b561b95981e3a96872286a054ebd37.php:51]
+
+---------------------------------------------------------------
+[ 2018-03-05T12:47:22+08:00 ] ::1 ::1 GET /myo2o/public/index.php/index/user/register.html
+[ error ] [0]致命错误: Call to undefined function captcha_img()[C:\Apache24\htdocs\myo2o\runtime\temp\38b561b95981e3a96872286a054ebd37.php:51]
+
+---------------------------------------------------------------
+[ 2018-03-05T12:47:23+08:00 ] ::1 ::1 GET /myo2o/public/index.php/index/user/register.html
+[ error ] [0]致命错误: Call to undefined function captcha_img()[C:\Apache24\htdocs\myo2o\runtime\temp\38b561b95981e3a96872286a054ebd37.php:51]
+
+---------------------------------------------------------------
+[ 2018-03-05T12:47:23+08:00 ] ::1 ::1 GET /myo2o/public/index.php/index/user/register.html
+[ error ] [0]致命错误: Call to undefined function captcha_img()[C:\Apache24\htdocs\myo2o\runtime\temp\38b561b95981e3a96872286a054ebd37.php:51]
+
+---------------------------------------------------------------
+[ 2018-03-05T12:47:23+08:00 ] ::1 ::1 GET /myo2o/public/index.php/index/user/register.html
+[ error ] [0]致命错误: Call to undefined function captcha_img()[C:\Apache24\htdocs\myo2o\runtime\temp\38b561b95981e3a96872286a054ebd37.php:51]
+
+---------------------------------------------------------------
+[ 2018-03-05T12:47:23+08:00 ] ::1 ::1 GET /myo2o/public/index.php/index/user/register.html
+[ error ] [0]致命错误: Call to undefined function captcha_img()[C:\Apache24\htdocs\myo2o\runtime\temp\38b561b95981e3a96872286a054ebd37.php:51]
+
+---------------------------------------------------------------
+[ 2018-03-05T13:22:07+08:00 ] ::1 ::1 GET /myo2o/public/index.php/index/user/register.html
+[ error ] [0]致命错误: Call to undefined function captcha_img()[C:\Apache24\htdocs\myo2o\runtime\temp\38b561b95981e3a96872286a054ebd37.php:51]
+
+---------------------------------------------------------------
+[ 2018-03-05T13:54:05+08:00 ] ::1 ::1 GET /myo2o/public/index.php/index/index/index.html
+[ error ] [8]Use of undefined constant _STATIC_ - assumed '_STATIC_'[C:\Apache24\htdocs\myo2o\runtime\temp\cb1e786125517150da771cdf54bf54fa.php:104]
+
+---------------------------------------------------------------
+[ 2018-03-05T13:54:35+08:00 ] ::1 ::1 GET /myo2o/public/index.php/index/index/index.html
+[ error ] [8]Use of undefined constant _STATIC_ - assumed '_STATIC_'[C:\Apache24\htdocs\myo2o\runtime\temp\cb1e786125517150da771cdf54bf54fa.php:104]
+
+---------------------------------------------------------------
+[ 2018-03-05T13:54:37+08:00 ] ::1 ::1 GET /myo2o/public/index.php/index/index/index.html
+[ error ] [8]Use of undefined constant _STATIC_ - assumed '_STATIC_'[C:\Apache24\htdocs\myo2o\runtime\temp\cb1e786125517150da771cdf54bf54fa.php:104]
+
+---------------------------------------------------------------
+[ 2018-03-05T13:54:38+08:00 ] ::1 ::1 GET /myo2o/public/index.php/index/index/index.html
+[ error ] [8]Use of undefined constant _STATIC_ - assumed '_STATIC_'[C:\Apache24\htdocs\myo2o\runtime\temp\cb1e786125517150da771cdf54bf54fa.php:104]
+
+---------------------------------------------------------------

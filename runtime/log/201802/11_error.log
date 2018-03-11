@@ -1,0 +1,58 @@
+[ 2018-02-11T11:32:47+08:00 ] 127.0.0.1 127.0.0.1 GET /myo2o/public/index.php/index/index/login
+[ error ] [2002]SQLSTATE[HY000] [2002] ÓÉÓÚÄ¿±ê¼ÆËã»ú»ý¼«¾Ü¾ø£¬ÎÞ·¨Á¬½Ó¡£
+[E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\thinkphp\library\think\db\Connection.php:282]
+
+---------------------------------------------------------------
+[ 2018-02-11T11:36:31+08:00 ] 127.0.0.1 127.0.0.1 GET /myo2o/public/index.php/index/index/login
+[ error ] [2002]SQLSTATE[HY000] [2002] ÓÉÓÚÄ¿±ê¼ÆËã»ú»ý¼«¾Ü¾ø£¬ÎÞ·¨Á¬½Ó¡£
+[E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\thinkphp\library\think\db\Connection.php:282]
+
+---------------------------------------------------------------
+[ 2018-02-11T11:55:15+08:00 ] 127.0.0.1 127.0.0.1 GET /myo2o/public/index.php?s=index/index/index
+[ error ] [8]æœªå®šä¹‰å˜é‡: defaultuname[E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\application\index\controller\Base.php:35]
+
+---------------------------------------------------------------
+[ 2018-02-11T13:28:13+08:00 ] 127.0.0.1 127.0.0.1 GET /myo2o/public/index.php/admin/index/welcome.html
+[ error ] [0]è‡´å‘½é”™è¯¯: Call to undefined function app\admin\controller\show()[E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\application\admin\controller\Index.php:18]
+
+---------------------------------------------------------------
+[ 2018-02-11T18:15:21+08:00 ] 127.0.0.1 127.0.0.1 GET /myo2o/public/index.php?s=index/index/login
+[ error ] [8]æœªå®šä¹‰å˜é‡: defaultuname[E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\application\index\controller\Base.php:35]
+
+---------------------------------------------------------------
+[ 2018-02-11T18:29:52+08:00 ] 127.0.0.1 127.0.0.1 GET /myo2o/public/index.php?s=index/index/login
+[ error ] [8]æœªå®šä¹‰å˜é‡: defaultuname[E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\application\index\controller\Base.php:35]
+
+---------------------------------------------------------------
+[ 2018-02-11T18:30:07+08:00 ] 127.0.0.1 127.0.0.1 GET /myo2o/public/index.php/index/user/register.html
+[ error ] [0]è‡´å‘½é”™è¯¯: Call to undefined function captcha_img()[E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\runtime\temp\48f51d966c65fe76364c51156ec423e6.php:51]
+
+---------------------------------------------------------------
+[ 2018-02-11T22:32:42+08:00 ] 127.0.0.1 127.0.0.1 GET /myo2o/public/index.php/admin/deal/apply.html
+[ error ] [0]method not exist:think\db\Query->getNormalCitys[E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\thinkphp\library\think\db\Query.php:91]
+
+---------------------------------------------------------------
+[ 2018-02-11T22:33:39+08:00 ] 127.0.0.1 127.0.0.1 GET /myo2o/public/index.php/admin/deal/index.html
+[ error ] [0]method not exist:think\db\Query->getNormalCitys[E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\thinkphp\library\think\db\Query.php:91]
+
+---------------------------------------------------------------
+[ 2018-02-11T22:33:40+08:00 ] 127.0.0.1 127.0.0.1 GET /myo2o/public/index.php/admin/deal/apply.html
+[ error ] [0]method not exist:think\db\Query->getNormalCitys[E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\thinkphp\library\think\db\Query.php:91]
+
+---------------------------------------------------------------
+[ 2018-02-11T22:34:07+08:00 ] 127.0.0.1 127.0.0.1 GET /myo2o/public/index.php/admin/deal/apply.html
+[ error ] [0]method not exist:think\db\Query->getNormalCitys[E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\thinkphp\library\think\db\Query.php:91]
+
+---------------------------------------------------------------
+[ 2018-02-11T22:41:00+08:00 ] 127.0.0.1 127.0.0.1 GET /myo2o/public/index.php/admin/city/index.html
+[ error ] [8]æœªå®šä¹‰å˜é‡: categorys[E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\runtime\temp\9ba3349b39f18fa4c63d301b75475929.php:54]
+
+---------------------------------------------------------------
+[ 2018-02-11T22:54:47+08:00 ] 127.0.0.1 127.0.0.1 GET /myo2o/public/index.php/admin/city/index.html
+[ error ] [0]è‡´å‘½é”™è¯¯: Call to a member function appends() on array[E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\application\common.php:73]
+
+---------------------------------------------------------------
+[ 2018-02-11T22:58:57+08:00 ] 127.0.0.1 127.0.0.1 GET /myo2o/public/index.php/admin/deal/apply.html
+[ error ] [0]method not exist:think\db\Query->getNormalCitys[E:\nginx\nginx-1.12.2\nginx-1.12.2\html\myo2o\thinkphp\library\think\db\Query.php:91]
+
+---------------------------------------------------------------

@@ -1,0 +1,36 @@
+[ 2018-03-07T13:42:54+08:00 ] ::1 ::1 GET /myo2o/public/index.php/admin/deal/index.html
+[ error ] [8]未定义数组下标: 7[C:\Apache24\htdocs\myo2o\runtime\temp\c17fbd32d9b44a74c419489f52d118e8.php:86]
+
+---------------------------------------------------------------
+[ 2018-03-07T13:43:02+08:00 ] ::1 ::1 GET /myo2o/public/index.php/admin/deal/index.html
+[ error ] [8]未定义数组下标: 7[C:\Apache24\htdocs\myo2o\runtime\temp\c17fbd32d9b44a74c419489f52d118e8.php:86]
+
+---------------------------------------------------------------
+[ 2018-03-07T13:44:23+08:00 ] ::1 ::1 GET /myo2o/public/index.php/admin/deal/index.html
+[ error ] [8]未定义数组下标: 7[C:\Apache24\htdocs\myo2o\runtime\temp\c17fbd32d9b44a74c419489f52d118e8.php:86]
+
+---------------------------------------------------------------
+[ 2018-03-07T15:09:06+08:00 ] ::1 ::1 GET /myo2o/public/index.php/admin/city/index.html
+[ error ] [0]致命错误: Call to a member function appends() on array[C:\Apache24\htdocs\myo2o\application\common.php:73]
+
+---------------------------------------------------------------
+[ 2018-03-07T16:40:38+08:00 ] ::1 ::1 GET /myo2o/public/index.php/admin/bis_location/index.html
+[ error ] [0]模板文件不存在:C:\Apache24\htdocs\myo2o\public/../application/admin\view\bis_location\index.html[C:\Apache24\htdocs\myo2o\thinkphp\library\think\view\driver\Think.php:80]
+
+---------------------------------------------------------------
+[ 2018-03-07T16:42:35+08:00 ] ::1 ::1 GET /myo2o/public/index.php/admin/bis_location/apply.html
+[ error ] [8]未定义变量: locations[C:\Apache24\htdocs\myo2o\application\admin\controller\BisLocation.php:27]
+
+---------------------------------------------------------------
+[ 2018-03-07T17:01:35+08:00 ] ::1 ::1 GET /myo2o/public/index.php/admin/bis_location/detail.html?id=3
+[ error ] [8]未定义变量: vo[C:\Apache24\htdocs\myo2o\runtime\temp\3f49830e13dad7a4d37952821b08cc06.php:52]
+
+---------------------------------------------------------------
+[ 2018-03-07T17:02:35+08:00 ] ::1 ::1 GET /myo2o/public/index.php/admin/bis_location/detail.html?id=3
+[ error ] [8]未定义变量: vo[C:\Apache24\htdocs\myo2o\runtime\temp\3f49830e13dad7a4d37952821b08cc06.php:87]
+
+---------------------------------------------------------------
+[ 2018-03-07T17:53:30+08:00 ] ::1 ::1 GET /myo2o/public/index.php/admin/bis_location/detail.html?id=3
+[ error ] [8]未定义变量: bisData[C:\Apache24\htdocs\myo2o\runtime\temp\3f49830e13dad7a4d37952821b08cc06.php:62]
+
+---------------------------------------------------------------

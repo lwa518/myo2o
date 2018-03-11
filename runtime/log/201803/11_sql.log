@@ -1,0 +1,20 @@
+[ 2018-03-11T12:18:56+08:00 ] 172.27.0.5 117.152.205.211 GET /myo2o/public/index.php/bis/register/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000386s ] mysql:dbname=o2o;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.000629s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 0  AND `parent_id` = 0 ORDER BY `id`  desc [ RunTime:0.084519s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.000693s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `status` = 1  AND `parent_id` = 0 ORDER BY `id`  desc [ RunTime:0.000361s ]
+
+---------------------------------------------------------------
+[ 2018-03-11T12:19:05+08:00 ] 172.27.0.5 117.152.205.211 POST /myo2o/public/index.php/api/city/getCitysByParentId.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000413s ] mysql:dbname=o2o;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.000647s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 0  AND `parent_id` = 5 ORDER BY `id`  desc [ RunTime:0.000335s ]
+
+---------------------------------------------------------------
+[ 2018-03-11T12:19:07+08:00 ] 172.27.0.5 117.152.205.211 POST /myo2o/public/index.php/api/city/getCitysByParentId.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000403s ] mysql:dbname=o2o;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.000839s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 0  AND `parent_id` = 1 ORDER BY `id`  desc [ RunTime:0.000451s ]
+
+---------------------------------------------------------------

@@ -1,0 +1,18 @@
+[ 2018-03-10T01:29:05+08:00 ] 172.27.0.5 183.57.53.222 GET /myo2o/public/index.php/admin/featured/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004118s ] mysql:dbname=o2o;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_featured` [ RunTime:0.000634s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_featured` WHERE  `type` = 0  AND `status` <> -1 ORDER BY `id`  desc [ RunTime:0.000341s ]
+
+---------------------------------------------------------------
+[ 2018-03-10T15:06:02+08:00 ] 172.27.0.5 117.152.205.243 GET /myo2o/public/index.php/bis/register/waiting.html?id=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000468s ] mysql:dbname=o2o;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_bis` [ RunTime:0.001029s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_bis` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000608s ]
+
+---------------------------------------------------------------
+[ 2018-03-10T15:17:33+08:00 ] 172.27.0.5 61.151.178.171 GET /myo2o/public/index.php/bis/register/waiting.html?id=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000404s ] mysql:dbname=o2o;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_bis` [ RunTime:0.000766s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_bis` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000383s ]
+
+---------------------------------------------------------------
