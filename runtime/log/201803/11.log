@@ -240,3 +240,618 @@
 [ info ] [ LOG ] INIT File
 
 ---------------------------------------------------------------
+[ 2018-03-11T22:43:03+08:00 ] 172.27.0.5 117.152.151.137 GET /myo2o/public/index.php/admin/index/index
+[ log ] 119.27.190.162/myo2o/public/index.php/admin/index/index [运行时间：0.418316s][吞吐率：2.39req/s] [内存消耗：1,480.48kb] [文件加载：48]
+[ info ] [ LANG ] /var/www/html/myo2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '119.27.190.162',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.146 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://119.27.190.162/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Hm_lvt_080836300300be57b7f34f4b3e97d911=1520588017',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ /var/www/html/myo2o/application/admin/controller/Index.php ]
+[ info ] [ VIEW ] /var/www/html/myo2o/public/../application/admin/view/index/index.html [ array (
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-03-11T22:43:03+08:00 ] 172.27.0.5 117.152.151.137 GET /myo2o/public/index.php/admin/index/welcome.html
+[ log ] 119.27.190.162/myo2o/public/index.php/admin/index/welcome.html [运行时间：0.012908s][吞吐率：77.47req/s] [内存消耗：1,427.59kb] [文件加载：47]
+[ info ] [ LANG ] /var/www/html/myo2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'welcome',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '119.27.190.162',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.146 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://119.27.190.162/myo2o/public/index.php/admin/index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Hm_lvt_080836300300be57b7f34f4b3e97d911=1520588017; PHPSESSID=hrgpvmo7l1anp71vkikrjpspgq',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->welcome[ /var/www/html/myo2o/application/admin/controller/Index.php ]
+[ info ] [ VIEW ] /var/www/html/myo2o/public/../application/admin/view/index/welcome.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-03-11T22:43:05+08:00 ] 172.27.0.5 117.152.151.137 GET /myo2o/public/index.php/admin/city/index.html
+[ log ] 119.27.190.162/myo2o/public/index.php/admin/city/index.html [运行时间：0.334438s][吞吐率：2.99req/s] [内存消耗：2,284.95kb] [文件加载：58]
+[ info ] [ LANG ] /var/www/html/myo2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'city',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '119.27.190.162',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.146 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://119.27.190.162/myo2o/public/index.php/admin/index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Hm_lvt_080836300300be57b7f34f4b3e97d911=1520588017; PHPSESSID=hrgpvmo7l1anp71vkikrjpspgq',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\City->index[ /var/www/html/myo2o/application/admin/controller/City.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /var/www/html/myo2o/public/../application/admin/view/city/index.html [ array (
+  0 => 'parentId',
+  1 => 'normalCity',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-03-11T22:43:07+08:00 ] 172.27.0.5 117.152.151.137 GET /myo2o/public/index.php/admin/category/index.html
+[ log ] 119.27.190.162/myo2o/public/index.php/admin/category/index.html [运行时间：0.334308s][吞吐率：2.99req/s] [内存消耗：2,360.55kb] [文件加载：62]
+[ info ] [ LANG ] /var/www/html/myo2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '119.27.190.162',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.146 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://119.27.190.162/myo2o/public/index.php/admin/index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Hm_lvt_080836300300be57b7f34f4b3e97d911=1520588017; PHPSESSID=hrgpvmo7l1anp71vkikrjpspgq',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Category->index[ /var/www/html/myo2o/application/admin/controller/Category.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /var/www/html/myo2o/public/../application/admin/view/category/index.html [ array (
+  0 => 'categorys',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-03-11T22:43:16+08:00 ] 172.27.0.5 117.152.151.137 GET /myo2o/public/index.php/admin/bis/index.html
+[ log ] 119.27.190.162/myo2o/public/index.php/admin/bis/index.html [运行时间：0.123294s][吞吐率：8.11req/s] [内存消耗：2,293.06kb] [文件加载：58]
+[ info ] [ LANG ] /var/www/html/myo2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'bis',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '119.27.190.162',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.146 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://119.27.190.162/myo2o/public/index.php/admin/index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=hrgpvmo7l1anp71vkikrjpspgq; Hm_lvt_080836300300be57b7f34f4b3e97d911=1520588017,1520779279; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1520779279',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Bis->index[ /var/www/html/myo2o/application/admin/controller/Bis.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /var/www/html/myo2o/public/../application/admin/view/bis/index.html [ array (
+  0 => 'bis',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-03-11T22:43:17+08:00 ] 172.27.0.5 117.152.151.137 GET /myo2o/public/index.php/admin/bis/apply.html
+[ log ] 119.27.190.162/myo2o/public/index.php/admin/bis/apply.html [运行时间：0.020441s][吞吐率：48.92req/s] [内存消耗：2,239.10kb] [文件加载：57]
+[ info ] [ LANG ] /var/www/html/myo2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'bis',
+    2 => 'apply',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '119.27.190.162',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.146 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://119.27.190.162/myo2o/public/index.php/admin/index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=hrgpvmo7l1anp71vkikrjpspgq; Hm_lvt_080836300300be57b7f34f4b3e97d911=1520588017,1520779279; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1520779279',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Bis->apply[ /var/www/html/myo2o/application/admin/controller/Bis.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /var/www/html/myo2o/public/../application/admin/view/bis/apply.html [ array (
+  0 => 'bis',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-03-11T22:43:18+08:00 ] 172.27.0.5 117.152.151.137 GET /myo2o/public/index.php/admin/bis_location/index.html
+[ log ] 119.27.190.162/myo2o/public/index.php/admin/bis_location/index.html [运行时间：0.024225s][吞吐率：41.28req/s] [内存消耗：2,300.94kb] [文件加载：59]
+[ info ] [ LANG ] /var/www/html/myo2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'bis_location',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '119.27.190.162',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.146 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://119.27.190.162/myo2o/public/index.php/admin/index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=hrgpvmo7l1anp71vkikrjpspgq; Hm_lvt_080836300300be57b7f34f4b3e97d911=1520588017,1520779279; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1520779279',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\BisLocation->index[ /var/www/html/myo2o/application/admin/controller/BisLocation.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /var/www/html/myo2o/public/../application/admin/view/bis_location/index.html [ array (
+  0 => 'locations',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-03-11T22:43:20+08:00 ] 172.27.0.5 117.152.151.137 GET /myo2o/public/index.php/admin/bis_location/apply.html
+[ log ] 119.27.190.162/myo2o/public/index.php/admin/bis_location/apply.html [运行时间：0.020366s][吞吐率：49.10req/s] [内存消耗：2,244.17kb] [文件加载：58]
+[ info ] [ LANG ] /var/www/html/myo2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'bis_location',
+    2 => 'apply',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '119.27.190.162',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.146 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://119.27.190.162/myo2o/public/index.php/admin/index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=hrgpvmo7l1anp71vkikrjpspgq; Hm_lvt_080836300300be57b7f34f4b3e97d911=1520588017,1520779279; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1520779279',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\BisLocation->apply[ /var/www/html/myo2o/application/admin/controller/BisLocation.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /var/www/html/myo2o/public/../application/admin/view/bis_location/apply.html [ array (
+  0 => 'locations',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-03-11T22:43:21+08:00 ] 172.27.0.5 117.152.151.137 GET /myo2o/public/index.php/admin/bis_location/index.html
+[ log ] 119.27.190.162/myo2o/public/index.php/admin/bis_location/index.html [运行时间：0.025826s][吞吐率：38.72req/s] [内存消耗：2,300.94kb] [文件加载：59]
+[ info ] [ LANG ] /var/www/html/myo2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'bis_location',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '119.27.190.162',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.146 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://119.27.190.162/myo2o/public/index.php/admin/index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=hrgpvmo7l1anp71vkikrjpspgq; Hm_lvt_080836300300be57b7f34f4b3e97d911=1520588017,1520779279; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1520779279',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\BisLocation->index[ /var/www/html/myo2o/application/admin/controller/BisLocation.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /var/www/html/myo2o/public/../application/admin/view/bis_location/index.html [ array (
+  0 => 'locations',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-03-11T22:43:23+08:00 ] 172.27.0.5 117.152.151.137 GET /myo2o/public/index.php/admin/bis_location/index.html
+[ log ] 119.27.190.162/myo2o/public/index.php/admin/bis_location/index.html [运行时间：0.020969s][吞吐率：47.69req/s] [内存消耗：2,300.94kb] [文件加载：59]
+[ info ] [ LANG ] /var/www/html/myo2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'bis_location',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '119.27.190.162',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.146 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://119.27.190.162/myo2o/public/index.php/admin/index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=hrgpvmo7l1anp71vkikrjpspgq; Hm_lvt_080836300300be57b7f34f4b3e97d911=1520588017,1520779279; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1520779279',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\BisLocation->index[ /var/www/html/myo2o/application/admin/controller/BisLocation.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /var/www/html/myo2o/public/../application/admin/view/bis_location/index.html [ array (
+  0 => 'locations',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-03-11T22:43:24+08:00 ] 172.27.0.5 117.152.151.137 GET /myo2o/public/index.php/admin/bis_location/apply.html
+[ log ] 119.27.190.162/myo2o/public/index.php/admin/bis_location/apply.html [运行时间：0.021114s][吞吐率：47.36req/s] [内存消耗：2,244.17kb] [文件加载：58]
+[ info ] [ LANG ] /var/www/html/myo2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'bis_location',
+    2 => 'apply',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '119.27.190.162',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.146 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://119.27.190.162/myo2o/public/index.php/admin/index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=hrgpvmo7l1anp71vkikrjpspgq; Hm_lvt_080836300300be57b7f34f4b3e97d911=1520588017,1520779279; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1520779279',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\BisLocation->apply[ /var/www/html/myo2o/application/admin/controller/BisLocation.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /var/www/html/myo2o/public/../application/admin/view/bis_location/apply.html [ array (
+  0 => 'locations',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-03-11T22:43:25+08:00 ] 172.27.0.5 117.152.151.137 GET /myo2o/public/index.php/admin/bis_location/index.html
+[ log ] 119.27.190.162/myo2o/public/index.php/admin/bis_location/index.html [运行时间：0.025016s][吞吐率：39.97req/s] [内存消耗：2,300.94kb] [文件加载：59]
+[ info ] [ LANG ] /var/www/html/myo2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'bis_location',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '119.27.190.162',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.146 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://119.27.190.162/myo2o/public/index.php/admin/index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=hrgpvmo7l1anp71vkikrjpspgq; Hm_lvt_080836300300be57b7f34f4b3e97d911=1520588017,1520779279; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1520779279',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\BisLocation->index[ /var/www/html/myo2o/application/admin/controller/BisLocation.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /var/www/html/myo2o/public/../application/admin/view/bis_location/index.html [ array (
+  0 => 'locations',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-03-11T22:43:32+08:00 ] 172.27.0.5 117.152.151.137 GET /myo2o/public/index.php/admin/featured/add.html
+[ log ] 119.27.190.162/myo2o/public/index.php/admin/featured/add.html [运行时间：0.018569s][吞吐率：53.85req/s] [内存消耗：1,645.83kb] [文件加载：52]
+[ info ] [ LANG ] /var/www/html/myo2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'featured',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '119.27.190.162',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.146 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://119.27.190.162/myo2o/public/index.php/admin/index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=hrgpvmo7l1anp71vkikrjpspgq; Hm_lvt_080836300300be57b7f34f4b3e97d911=1520588017,1520779279; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1520779279',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Featured->add[ /var/www/html/myo2o/application/admin/controller/Featured.php ]
+[ info ] [ VIEW ] /var/www/html/myo2o/public/../application/admin/view/featured/add.html [ array (
+  0 => 'types',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-03-11T22:43:33+08:00 ] 172.27.0.5 117.152.151.137 GET /myo2o/public/index.php/admin/featured/index.html
+[ log ] 119.27.190.162/myo2o/public/index.php/admin/featured/index.html [运行时间：0.021650s][吞吐率：46.19req/s] [内存消耗：2,282.98kb] [文件加载：59]
+[ info ] [ LANG ] /var/www/html/myo2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'featured',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '119.27.190.162',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.146 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://119.27.190.162/myo2o/public/index.php/admin/index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=hrgpvmo7l1anp71vkikrjpspgq; Hm_lvt_080836300300be57b7f34f4b3e97d911=1520588017,1520779279; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1520779279',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Featured->index[ /var/www/html/myo2o/application/admin/controller/Featured.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /var/www/html/myo2o/public/../application/admin/view/featured/index.html [ array (
+  0 => 'types',
+  1 => 'results',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-03-11T22:58:27+08:00 ] 172.27.0.5 117.152.151.137 GET /myo2o/public/index.php/index/index/index
+[ log ] 119.27.190.162/myo2o/public/index.php/index/index/index [运行时间：0.137333s][吞吐率：7.28req/s] [内存消耗：2,382.25kb] [文件加载：60]
+[ info ] [ LANG ] /var/www/html/myo2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '119.27.190.162',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.146 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://119.27.190.162/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=hrgpvmo7l1anp71vkikrjpspgq; Hm_lvt_080836300300be57b7f34f4b3e97d911=1520588017,1520779279; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1520779279',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /var/www/html/myo2o/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /var/www/html/myo2o/public/../application/index/view/index/index.html [ array (
+  0 => 'citys',
+  1 => 'city',
+  2 => 'cats',
+  3 => 'controler',
+  4 => 'user',
+  5 => 'title',
+  6 => 'datas',
+  7 => 'meishicates',
+  8 => 'controller',
+  9 => 'featured',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-03-11T22:58:42+08:00 ] 172.27.0.5 117.152.151.137 GET /myo2o/public/index.php/index/index/index
+[ log ] 119.27.190.162/myo2o/public/index.php/index/index/index [运行时间：0.027000s][吞吐率：37.04req/s] [内存消耗：2,382.62kb] [文件加载：60]
+[ info ] [ LANG ] /var/www/html/myo2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '119.27.190.162',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.146 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://119.27.190.162/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=hrgpvmo7l1anp71vkikrjpspgq; Hm_lvt_080836300300be57b7f34f4b3e97d911=1520588017,1520779279; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1520779279',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /var/www/html/myo2o/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /var/www/html/myo2o/public/../application/index/view/index/index.html [ array (
+  0 => 'citys',
+  1 => 'city',
+  2 => 'cats',
+  3 => 'controler',
+  4 => 'user',
+  5 => 'title',
+  6 => 'datas',
+  7 => 'meishicates',
+  8 => 'controller',
+  9 => 'featured',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-03-11T22:59:06+08:00 ] 172.27.0.5 117.152.151.137 GET /myo2o/public/index.php/index/index/index
+[ log ] 119.27.190.162/myo2o/public/index.php/index/index/index [运行时间：0.032787s][吞吐率：30.50req/s] [内存消耗：2,382.62kb] [文件加载：60]
+[ info ] [ LANG ] /var/www/html/myo2o/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '119.27.190.162',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.146 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://119.27.190.162/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=hrgpvmo7l1anp71vkikrjpspgq; Hm_lvt_080836300300be57b7f34f4b3e97d911=1520588017,1520779279; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1520779279',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /var/www/html/myo2o/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /var/www/html/myo2o/public/../application/index/view/index/index.html [ array (
+  0 => 'citys',
+  1 => 'city',
+  2 => 'cats',
+  3 => 'controler',
+  4 => 'user',
+  5 => 'title',
+  6 => 'datas',
+  7 => 'meishicates',
+  8 => 'controller',
+  9 => 'featured',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
